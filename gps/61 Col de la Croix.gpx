@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-06-29T21:59:10Z</time>
+    <bounds maxlat="46.350029977038503" maxlon="7.158670015633106" minlat="46.249949969351292" minlon="7.016970003023744" />
+  </metadata>
+
+  <rte>
+    <name>61 Col de la Croix</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.249949969351292" lon="7.016970003023744">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>CH 18.. Bex</name>
+      <cmt>CH 18.. Bex</cmt>
+      <desc>CH 18.. Bex</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.250520022585988" lon="7.020259983837605">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Bex</name>
+      <cmt>in Bex halb rechts abbiegen auf Pont Neuf</cmt>
+      <desc>in Bex halb rechts abbiegen auf Pont Neuf</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.250339979305863" lon="7.020470034331083">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Bex1</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.252070004120469" lon="7.022770028561354">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Bex2</name>
+      <cmt>3. Möglichkeit aus Kreisverkehr ausfahren auf Route de Gryon</cmt>
+      <desc>3. Möglichkeit aus Kreisverkehr ausfahren auf Route de Gryon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.265230011194944" lon="7.026829971000552">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Bex3</name>
+      <cmt>halb rechts abbiegen auf Route de Gryon</cmt>
+      <desc>halb rechts abbiegen auf Route de Gryon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.272499971091747" lon="7.02865001745522">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Chêne-sur-Bex</name>
+      <cmt>in Fenalet-sur-Bex halb links abbiegen</cmt>
+      <desc>in Fenalet-sur-Bex halb links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.271030036732554" lon="7.036439990624785">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Chêne-sur-Bex1</name>
+      <cmt>links abbiegen auf Route de Gryon</cmt>
+      <desc>links abbiegen auf Route de Gryon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.271660020574927" lon="7.058880021795631">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Posses-sur-Bex</name>
+      <cmt>rechts abbiegen auf Route de Bex</cmt>
+      <desc>rechts abbiegen auf Route de Bex</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.273720040917397" lon="7.063039960339665">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Posses-sur-Bex1</name>
+      <cmt>in Gryon rechts abbiegen auf Le vieux-Chemin</cmt>
+      <desc>in Gryon rechts abbiegen auf Le vieux-Chemin</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.273849960416555" lon="7.063510017469525">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Gryon</name>
+      <cmt>rechts abbiegen auf Route de Bex</cmt>
+      <desc>rechts abbiegen auf Route de Bex</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.273950040340424" lon="7.063440028578043">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Gryon1</name>
+      <cmt>halb links abbiegen auf Avenue de la Gare</cmt>
+      <desc>halb links abbiegen auf Avenue de la Gare</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.274090018123388" lon="7.063459977507591">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Gryon2</name>
+      <cmt>rechts abbiegen auf Avenue de la Gare</cmt>
+      <desc>rechts abbiegen auf Avenue de la Gare</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.274229995906353" lon="7.062300005927682">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Gryon3</name>
+      <cmt>links abbiegen auf Chemin du Carroz</cmt>
+      <desc>links abbiegen auf Chemin du Carroz</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.285979999229312" lon="7.072979975491762">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Gryon4</name>
+      <cmt>scharf rechts abbiegen auf Route de Villars</cmt>
+      <desc>scharf rechts abbiegen auf Route de Villars</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.295509971678257" lon="7.0561099704355">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Barboleusaz</name>
+      <cmt>in Villars-sur-Ollon einfahren in Kreisverkehr</cmt>
+      <desc>in Villars-sur-Ollon einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.297390032559633" lon="7.054469967260957">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Barboleusaz1</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf Rue Centrale</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf Rue Centrale</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.305939992889762" lon="7.091970015317202">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Barboleusaz2</name>
+      <cmt>halb rechts weiter auf Route des Hôtels</cmt>
+      <desc>halb rechts weiter auf Route des Hôtels</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.325449962168932" lon="7.126790033653379">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Col de la Croix / 1779m / 9%</name>
+      <cmt>Col de la Croix / 1779m / 9%</cmt>
+      <desc>Col de la Croix / 1779m / 9%</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.332980012521148" lon="7.14439001865685">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Barboleusaz3</name>
+      <cmt>rechts abbiegen auf Route du Col de la Croix</cmt>
+      <desc>rechts abbiegen auf Route du Col de la Croix</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.347220027819276" lon="7.144139986485243">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Barboleusaz4</name>
+      <cmt>rechts abbiegen auf Route du Col de la Croix</cmt>
+      <desc>rechts abbiegen auf Route du Col de la Croix</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.350029977038503" lon="7.158670015633106">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>. Ormont-Dessus1</name>
+      <cmt>CH 186. Ormont-Dessus</cmt>
+      <desc>CH 186. Ormont-Dessus</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

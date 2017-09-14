@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-06-29T21:55:07Z</time>
+    <bounds maxlat="46.828089980408549" maxlon="12.768440013751388" minlat="46.756769958883524" minlon="12.528560003265738" />
+  </metadata>
+
+  <rte>
+    <name>25 Pustertaler Höhenstraße</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.756769958883524" lon="12.529159979894757">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Abfaltersbach</name>
+      <cmt>A 9913 Abfaltersbach</cmt>
+      <desc>A 9913 Abfaltersbach</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.758559998124838" lon="12.528560003265738">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>19</name>
+      <cmt>in Abfaltersbach rechts abbiegen auf Pustertaler Höhenstraße</cmt>
+      <desc>in Abfaltersbach rechts abbiegen auf Pustertaler Höhenstraße</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.762439981102943" lon="12.537339963018894">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Abfaltersbach1</name>
+      <cmt>links halten auf Gebreiten</cmt>
+      <desc>links halten auf Gebreiten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.770739993080497" lon="12.55252000875771">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Asch</name>
+      <cmt>links halten auf Pustertaler Höhenstraße</cmt>
+      <desc>links halten auf Pustertaler Höhenstraße</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.773309968411922" lon="12.554030008614063">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Anras</name>
+      <cmt>bei A 9912 Anras</cmt>
+      <desc>bei A 9912 Anras</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.772119989618659" lon="12.555809989571571">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Anras1</name>
+      <cmt>in Anras links halten auf Dorf</cmt>
+      <desc>in Anras links halten auf Dorf</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.772070033475757" lon="12.556420024484396">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Anras2</name>
+      <cmt>halb links abbiegen auf Dorf</cmt>
+      <desc>halb links abbiegen auf Dorf</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.771620009094477" lon="12.560130022466183">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Anras3</name>
+      <cmt>rechts abbiegen auf Dorf</cmt>
+      <desc>rechts abbiegen auf Dorf</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.776210023090243" lon="12.57194004021585">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Anras4</name>
+      <cmt>in Mairwiesen links halten auf Mairwiesen</cmt>
+      <desc>in Mairwiesen links halten auf Mairwiesen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.78166002035141" lon="12.586820013821125">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Mairwiesen</name>
+      <cmt>rechts halten auf Unterried</cmt>
+      <desc>rechts halten auf Unterried</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.793419998139143" lon="12.580980006605387">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Unterried</name>
+      <cmt>links abbiegen auf Sankt Justina</cmt>
+      <desc>links abbiegen auf Sankt Justina</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.794990012422204" lon="12.582069989293814">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Pustertaler Höhenstrasse / 1480m / 14%</name>
+      <cmt>Pustertaler Höhenstrasse / 1480m / 14%</cmt>
+      <desc>Pustertaler Höhenstrasse / 1480m / 14%</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.790339983999729" lon="12.589499959722161">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Vergein</name>
+      <cmt>rechts halten auf Burg</cmt>
+      <desc>rechts halten auf Burg</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.788599984720349" lon="12.598890038207173">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Burg</name>
+      <cmt>in Burg links halten auf Pustertaler Höhenstraße</cmt>
+      <desc>in Burg links halten auf Pustertaler Höhenstraße</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.786520015448332" lon="12.613719971850514">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Kosten</name>
+      <cmt>in Kosten links halten auf Pustertaler Höhenstraße</cmt>
+      <desc>in Kosten links halten auf Pustertaler Höhenstraße</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.78744001314044" lon="12.623280035331845">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling</name>
+      <cmt>bei A 9911 Assling</cmt>
+      <desc>bei A 9911 Assling</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.791589977219701" lon="12.635260038077831">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Bichl</name>
+      <cmt>in Bichl geradeaus weiter auf Pustertaler Höhenstraße</cmt>
+      <desc>in Bichl geradeaus weiter auf Pustertaler Höhenstraße</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.792539982125163" lon="12.637769998982549">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Bichl1</name>
+      <cmt>links abbiegen auf Oberassling</cmt>
+      <desc>links abbiegen auf Oberassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.791640017181635" lon="12.640109974890947">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Bichl2</name>
+      <cmt>rechts abbiegen auf Oberassling</cmt>
+      <desc>rechts abbiegen auf Oberassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.787110017612576" lon="12.638599975034595">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling1</name>
+      <cmt>in Assling links abbiegen auf Unterassling</cmt>
+      <desc>in Assling links abbiegen auf Unterassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.786699974909425" lon="12.64105997979641">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling2</name>
+      <cmt>rechts abbiegen auf Unterassling</cmt>
+      <desc>rechts abbiegen auf Unterassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.786480033770204" lon="12.641170034185052">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling3</name>
+      <cmt>halb links abbiegen auf Unterassling</cmt>
+      <desc>halb links abbiegen auf Unterassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.786420019343495" lon="12.641300037503242">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling4</name>
+      <cmt>rechts abbiegen auf Unterassling</cmt>
+      <desc>rechts abbiegen auf Unterassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.786350030452013" lon="12.641300037503242">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling5</name>
+      <cmt>links abbiegen auf Unterassling</cmt>
+      <desc>links abbiegen auf Unterassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.789040034636855" lon="12.644309978932142">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling6</name>
+      <cmt>halb links abbiegen auf Unterassling</cmt>
+      <desc>halb links abbiegen auf Unterassling</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.79319997318089" lon="12.645359979942441">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling7</name>
+      <cmt>halb rechts abbiegen auf Oberthal</cmt>
+      <desc>halb rechts abbiegen auf Oberthal</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.790460012853146" lon="12.650270015001297">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling8</name>
+      <cmt>links abbiegen auf Pustertaler Höhenstraße</cmt>
+      <desc>links abbiegen auf Pustertaler Höhenstraße</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.790279969573021" lon="12.662259992212057">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling9</name>
+      <cmt>links halten auf Penzendorf</cmt>
+      <desc>links halten auf Penzendorf</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.792060034349561" lon="12.674279976636171">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Klausen</name>
+      <cmt>in Klausen links halten auf Klausen</cmt>
+      <desc>in Klausen links halten auf Klausen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.802040031179786" lon="12.681459998711944">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Klausen1</name>
+      <cmt>in Schrottendorf links halten auf Schrottendorf</cmt>
+      <desc>in Schrottendorf links halten auf Schrottendorf</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.800530031323433" lon="12.717839973047376">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Assling/Bannberg</name>
+      <cmt>bei A 9911 Assling/Bannberg</cmt>
+      <desc>bei A 9911 Assling/Bannberg</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.816750019788742" lon="12.753649977967143">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Leisach</name>
+      <cmt>in Leisach links abbiegen auf Leisach-Gries (E66/B100)</cmt>
+      <desc>in Leisach links abbiegen auf Leisach-Gries (E66/B100)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.827970035374165" lon="12.757449997588992">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Lienz</name>
+      <cmt>in Lienz einfahren in Kreisverkehr</cmt>
+      <desc>in Lienz einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.827999958768487" lon="12.757500037550926">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Lienz1</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf Albin Egger-Straße (E66/B100)</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf Albin Egger-Straße (E66/B100)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.828089980408549" lon="12.768440013751388">
+      <time>2015-06-29T21:38:16Z</time>
+      <name>Lienz2</name>
+      <cmt>A 9900 Lienz</cmt>
+      <desc>A 9900 Lienz</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

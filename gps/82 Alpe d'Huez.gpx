@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-06-29T22:00:48Z</time>
+    <bounds maxlat="45.136859966441989" maxlon="6.074309991672635" minlat="45.056039979681373" minlon="6.033860016614199" />
+  </metadata>
+
+  <rte>
+    <name>82 Alpe d'Huez</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="45.056039979681373" lon="6.033860016614199">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Le Bourg-d'Oisans</name>
+      <cmt>F 38520 Le Bourg-d'Oisans</cmt>
+      <desc>F 38520 Le Bourg-d'Oisans</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.067320009693503" lon="6.042039999738336">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Le Bourg-d'Oisans1</name>
+      <cmt>links abbiegen auf D211</cmt>
+      <desc>links abbiegen auf D211</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.076180016621947" lon="6.051339972764254">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe -d´Huez / 1860m / 10%</name>
+      <cmt>Alpe -d´Huez / 1860m / 10%</cmt>
+      <desc>Alpe -d´Huez / 1860m / 10%</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.085519971325994" lon="6.063110008835793">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Huez-en-Oisans</name>
+      <cmt>in Huez-en-Oisans rechts abbiegen</cmt>
+      <desc>in Huez-en-Oisans rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.089840004220605" lon="6.074109999462962">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez</name>
+      <cmt>in Alpe d'Huez rechts abbiegen auf D211</cmt>
+      <desc>in Alpe d'Huez rechts abbiegen auf D211</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.090160025283694" lon="6.074309991672635">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez1</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.091289989650249" lon="6.07318002730608">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez2</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue du Rif Nel</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue du Rif Nel</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.092699993401766" lon="6.071979990229011">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez3</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.092390030622482" lon="6.069900020956993">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez4</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue de l'Étendard</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue de l'Étendard</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.093090003356338" lon="6.068560006096959">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez5</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.0931800249964" lon="6.067930022254586">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez6</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Place Jean Moulin</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Place Jean Moulin</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.092969974502921" lon="6.066869962960482">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez7</name>
+      <cmt>links abbiegen auf Place Jean Moulin</cmt>
+      <desc>links abbiegen auf Place Jean Moulin</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.092820022255182" lon="6.061330027878285">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Huez/Alpe d'Huez</name>
+      <cmt>bei F 38750 Huez/Alpe d'Huez</cmt>
+      <desc>bei F 38750 Huez/Alpe d'Huez</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.09085999801755" lon="6.064139977097511">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez8</name>
+      <cmt>rechts abbiegen auf Chemin du Chamont</cmt>
+      <desc>rechts abbiegen auf Chemin du Chamont</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.091619985178113" lon="6.05943001806736">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez9</name>
+      <cmt>rechts abbiegen auf Route d'Huez</cmt>
+      <desc>rechts abbiegen auf Route d'Huez</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.089029977098107" lon="6.058740019798279">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Huez</name>
+      <cmt>bei F 38750 Huez</cmt>
+      <desc>bei F 38750 Huez</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.084020029753447" lon="6.060510026291013">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Alpe d'Huez10</name>
+      <cmt>rechts abbiegen auf D211</cmt>
+      <desc>rechts abbiegen auf D211</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.082559986039996" lon="6.058090003207326">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Huez-en-Oisans1</name>
+      <cmt>in Huez-en-Oisans halb links abbiegen</cmt>
+      <desc>in Huez-en-Oisans halb links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.082229990512133" lon="6.058819983154535">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Huez-en-Oisans2</name>
+      <cmt>links abbiegen auf Avenue des Fontaines (D211)</cmt>
+      <desc>links abbiegen auf Avenue des Fontaines (D211)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.081669995561242" lon="6.057920018211007">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Huez-en-Oisans3</name>
+      <cmt>rechts abbiegen auf Avenue du Moulin</cmt>
+      <desc>rechts abbiegen auf Avenue du Moulin</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.084299985319376" lon="6.037459960207343">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Huez-en-Oisans4</name>
+      <cmt>halb rechts abbiegen</cmt>
+      <desc>halb rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.115500027313828" lon="6.035289969295263">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Villard-Reculas</name>
+      <cmt>bei F 38114 Villard-Reculas</cmt>
+      <desc>bei F 38114 Villard-Reculas</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.126670002937317" lon="6.044980036094785">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Villard-Reculas1</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.133599992841482" lon="6.051039984449744">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Villard-Reculas2</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.136859966441989" lon="6.049829972907901">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Villard-Reculas3</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.133690014481544" lon="6.049050036817789">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Villard-Reculas4</name>
+      <cmt>links abbiegen auf D526</cmt>
+      <desc>links abbiegen auf D526</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.129850013181567" lon="6.042469991371036">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Villard-Reculas5</name>
+      <cmt>rechts abbiegen auf D526</cmt>
+      <desc>rechts abbiegen auf D526</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.130540011450648" lon="6.040479959920049">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Villard-Reculas6</name>
+      <cmt>in Allemond rechts abbiegen</cmt>
+      <desc>in Allemond rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.130519978702068" lon="6.040009986609221">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Allemond</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.131699983030558" lon="6.041389983147383">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Allemond1</name>
+      <cmt>links halten</cmt>
+      <desc>links halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.132500035688281" lon="6.042130021378398">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Allemond2</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.132069960236549" lon="6.039570020511746">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Allemond3</name>
+      <cmt>F 38114 Allemond</cmt>
+      <desc>F 38114 Allemond</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

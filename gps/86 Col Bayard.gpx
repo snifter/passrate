@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-06-29T22:01:09Z</time>
+    <bounds maxlat="44.682710012421012" maxlon="6.084689972922206" minlat="44.561720006167889" minlon="6.062499973922968" />
+  </metadata>
+
+  <rte>
+    <name>86 Col Bayard</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="44.682670030742884" lon="6.077510034665465">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Saint-Bonnet-en-Champsaur</name>
+      <cmt>F 05500 Saint-Bonnet-en-Champsaur</cmt>
+      <desc>F 05500 Saint-Bonnet-en-Champsaur</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.682710012421012" lon="6.07591001316905">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Saint-Bonnet-en-Champsaur1</name>
+      <cmt>in Saint-Bonnet-en-Champsaur links abbiegen auf Rue de Chaillol</cmt>
+      <desc>in Saint-Bonnet-en-Champsaur links abbiegen auf Rue de Chaillol</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.682180024683475" lon="6.074609979987145">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Saint-Bonnet-en-Champsaur2</name>
+      <cmt>halb links abbiegen auf Place du Chevreril</cmt>
+      <desc>halb links abbiegen auf Place du Chevreril</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.679599991068244" lon="6.07361001893878">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Saint-Bonnet-en-Champsaur3</name>
+      <cmt>halb links abbiegen auf Avenue de la Libération</cmt>
+      <desc>halb links abbiegen auf Avenue de la Libération</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.676740001887083" lon="6.07449003495276">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Saint-Bonnet-en-Champsaur4</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.675810029730201" lon="6.07361001893878">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Saint-Bonnet-en-Champsaur5</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.675009977072477" lon="6.072190040722489">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Saint-Bonnet-en-Champsaur6</name>
+      <cmt>in La Fare-en-Champsaur einfahren in Kreisverkehr</cmt>
+      <desc>in La Fare-en-Champsaur einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.674509996548295" lon="6.072839973494411">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur</name>
+      <cmt>3. Möglichkeit aus Kreisverkehr ausfahren auf N85 Route Napoléon</cmt>
+      <desc>3. Möglichkeit aus Kreisverkehr ausfahren auf N85 Route Napoléon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.671199982985854" lon="6.067949971184135">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur1</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.656680012121797" lon="6.062499973922968">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur2</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.640709972009063" lon="6.084689972922206">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur3</name>
+      <cmt>rechts abbiegen auf N85 Route Napoléon</cmt>
+      <desc>rechts abbiegen auf N85 Route Napoléon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.633229961618781" lon="6.083650030195713">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur4</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.633280001580715" lon="6.083509968593717">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Col Bayard / 1248m / 12%</name>
+      <cmt>Col Bayard / 1248m / 12%</cmt>
+      <desc>Col Bayard / 1248m / 12%</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.600900039076805" lon="6.079460000619292">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur5</name>
+      <cmt>rechts abbiegen auf N85 Route Napoléon</cmt>
+      <desc>rechts abbiegen auf N85 Route Napoléon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.582569990307093" lon="6.080660037696362">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur6</name>
+      <cmt>halb rechts abbiegen auf N85 Route Napoléon</cmt>
+      <desc>halb rechts abbiegen auf N85 Route Napoléon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.572870032861829" lon="6.07621000148356">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>La Fare-en-Champsaur7</name>
+      <cmt>links abbiegen auf N85 Route Napoléon</cmt>
+      <desc>links abbiegen auf N85 Route Napoléon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.563840040937066" lon="6.083780033513904">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Gap</name>
+      <cmt>in Gap einfahren in Kreisverkehr</cmt>
+      <desc>in Gap einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.563199998810887" lon="6.083910036832094">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Gap1</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf N85 Avenue du Commandant Dumont</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf N85 Avenue du Commandant Dumont</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.562119990587234" lon="6.083959992974997">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Gap2</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.561820002272725" lon="6.083479961380363">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Gap3</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf Cours Ladoucette (D994)</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf Cours Ladoucette (D994)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.561720006167889" lon="6.083169998601079">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>Gap4</name>
+      <cmt>rechts abbiegen auf Rue de Valiserre</cmt>
+      <desc>rechts abbiegen auf Rue de Valiserre</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.562040027230978" lon="6.083160024136305">
+      <time>2015-06-29T21:38:21Z</time>
+      <name>F 05000 Gap</name>
+      <cmt>bei F 05000 Gap</cmt>
+      <desc>bei F 05000 Gap</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

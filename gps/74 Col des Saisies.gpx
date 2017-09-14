@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-06-29T22:00:13Z</time>
+    <bounds maxlat="45.818499969318509" maxlon="6.577389976009727" minlat="45.717619992792606" minlon="6.512190001085401" />
+  </metadata>
+
+  <rte>
+    <name>74 Col des Saisies</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="45.816499963402748" lon="6.512190001085401">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Flumet</name>
+      <cmt>F 73590 Flumet</cmt>
+      <desc>F 73590 Flumet</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.817549964413047" lon="6.513460027053952">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Flumet1</name>
+      <cmt>in Flumet einfahren in Kreisverkehr</cmt>
+      <desc>in Flumet einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.81832998432219" lon="6.514880005270243">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Flumet2</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf N212 Rue du Mont-Blanc</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf N212 Rue du Mont-Blanc</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.818499969318509" lon="6.516209961846471">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Flumet3</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.815980033949018" lon="6.516310041770339">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Flumet4</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf D218</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf D218</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.809980016201735" lon="6.51596998795867">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Flumet5</name>
+      <cmt>rechts abbiegen auf D218 B</cmt>
+      <desc>rechts abbiegen auf D218 B</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.804379982873797" lon="6.541010001674295">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Notre-Dame-de-Bellecombe</name>
+      <cmt>in Notre-Dame-de-Bellecombe rechts abbiegen auf D218 B</cmt>
+      <desc>in Notre-Dame-de-Bellecombe rechts abbiegen auf D218 B</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.779829975217581" lon="6.552820019423962">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Notre-Dame-de-Bellecombe/Les Frasses</name>
+      <cmt>bei F 73590 Notre-Dame-de-Bellecombe/Les Frasses</cmt>
+      <desc>bei F 73590 Notre-Dame-de-Bellecombe/Les Frasses</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.766069991514087" lon="6.532660033553839">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Col des Saisies / 1633m / 12%</name>
+      <cmt>Col des Saisies / 1633m / 12%</cmt>
+      <desc>Col des Saisies / 1633m / 12%</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.763409994542599" lon="6.533789997920394">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Notre-Dame-de-Bellecombe1</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.761360032483935" lon="6.533360006287694">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Notre-Dame-de-Bellecombe2</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf D218 B</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf D218 B</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.759400008246303" lon="6.534089986234903">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Notre-Dame-de-Bellecombe3</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.758069967851043" lon="6.536860037595034">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Notre-Dame-de-Bellecombe4</name>
+      <cmt>3. Möglichkeit aus Kreisverkehr ausfahren auf Avenue des J.o. (D218 B)</cmt>
+      <desc>3. Möglichkeit aus Kreisverkehr ausfahren auf Avenue des J.o. (D218 B)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.757109988480806" lon="6.539239995181561">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies</name>
+      <cmt>in Les Saisies einfahren in Kreisverkehr</cmt>
+      <desc>in Les Saisies einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.756819974631071" lon="6.54009997844696">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies1</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue des J.o. (D218 B)</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue des J.o. (D218 B)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.756440022960305" lon="6.540710013359785">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies2</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.747359991073608" lon="6.548490012064576">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies3</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue des J.o. (D218 B)</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue des J.o. (D218 B)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.744520034641027" lon="6.568949986249209">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies4</name>
+      <cmt>rechts abbiegen auf D218 B</cmt>
+      <desc>rechts abbiegen auf D218 B</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.734290005639195" lon="6.551350001245737">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies5</name>
+      <cmt>rechts abbiegen auf D218 E</cmt>
+      <desc>rechts abbiegen auf D218 E</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.729520032182336" lon="6.562210014089942">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies6</name>
+      <cmt>rechts abbiegen auf D218 E</cmt>
+      <desc>rechts abbiegen auf D218 E</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.727350041270256" lon="6.555759971961379">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies7</name>
+      <cmt>rechts abbiegen auf D218 E</cmt>
+      <desc>rechts abbiegen auf D218 E</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.721160005778074" lon="6.558830011636019">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Les Saisies8</name>
+      <cmt>scharf links abbiegen auf D925</cmt>
+      <desc>scharf links abbiegen auf D925</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.719919987022877" lon="6.572030000388622">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Beaufort6</name>
+      <cmt>in Beaufort einfahren in Kreisverkehr</cmt>
+      <desc>in Beaufort einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.719399973750114" lon="6.573279993608594">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Beaufort11</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf Avenue du Capitaine Bulle (D925)</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf Avenue du Capitaine Bulle (D925)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.71883000433445" lon="6.573800006881356">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Beaufort21</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.71810002438724" lon="6.5750100184232">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Beaufort31</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue du Capitaine Bulle (D925)</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue du Capitaine Bulle (D925)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.717619992792606" lon="6.57602003775537">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Beaufort4</name>
+      <cmt>links abbiegen auf Montée d'Outray</cmt>
+      <desc>links abbiegen auf Montée d'Outray</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.717770028859377" lon="6.576480036601424">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Beaufort5</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.719619998708367" lon="6.577389976009727">
+      <time>2015-06-29T21:38:20Z</time>
+      <name>Beaufort/Beaufort sur Doron1</name>
+      <cmt>F 73270 Beaufort/Beaufort sur Doron</cmt>
+      <desc>F 73270 Beaufort/Beaufort sur Doron</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

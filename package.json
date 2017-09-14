@@ -1,0 +1,14 @@
+{
+  "name": "passrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "snifter",
+  "license": "ISC",
+  "dependencies": {
+    "gpx-parse": "git+https://github.com/snifter/gpx-parse.git"
+  }
+}

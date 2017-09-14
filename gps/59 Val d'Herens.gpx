@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-06-29T21:59:01Z</time>
+    <bounds maxlat="46.230960013344884" maxlon="7.538950005546212" minlat="46.023119995370507" minlon="7.339509995654225" />
+  </metadata>
+
+  <rte>
+    <name>59 Val d'Herens</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.228170013055205" lon="7.359230015426874">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>CH 19.. Sitten</name>
+      <cmt>CH 19.. Sitten</cmt>
+      <desc>CH 19.. Sitten</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.22873998247087" lon="7.362649999558926">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion</name>
+      <cmt>in Sion einfahren in Kreisverkehr</cmt>
+      <desc>in Sion einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.229229988530278" lon="7.363569997251034">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion1</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue de Tourbillon (9)</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Avenue de Tourbillon (9)</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.228709975257516" lon="7.365720039233565">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion2</name>
+      <cmt>rechts abbiegen auf Rue de la Dixence</cmt>
+      <desc>rechts abbiegen auf Rue de la Dixence</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.228679968044162" lon="7.368789995089173">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion3</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.228230027481914" lon="7.370569976046681">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion4</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Rue de la Dixence</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Rue de la Dixence</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.227989969775081" lon="7.371359970420599">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion5</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.221530037000775" lon="7.372509967535734">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion6</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf Rue de la Dixence</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf Rue de la Dixence</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.215509986504912" lon="7.354900008067489">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion7</name>
+      <cmt>links halten auf Route de Turin</cmt>
+      <desc>links halten auf Route de Turin</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.21198003180325" lon="7.34820001758635">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins/Turin</name>
+      <cmt>bei CH 1991 Salins/Turin</cmt>
+      <desc>bei CH 1991 Salins/Turin</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.21024003252387" lon="7.344230012968183">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin</name>
+      <cmt>links halten auf Arvillard</cmt>
+      <desc>links halten auf Arvillard</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.209349958226085" lon="7.343059983104467">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin1</name>
+      <cmt>links abbiegen auf Arvillard</cmt>
+      <desc>links abbiegen auf Arvillard</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.210040040314198" lon="7.346130022779107">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin2</name>
+      <cmt>links halten auf Chemin du Bisse de Baar</cmt>
+      <desc>links halten auf Chemin du Bisse de Baar</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.210600035265088" lon="7.348899990320206">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin3</name>
+      <cmt>rechts halten auf Chemin du Bisse de Baar</cmt>
+      <desc>rechts halten auf Chemin du Bisse de Baar</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.211439985781908" lon="7.35283998772502">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin4</name>
+      <cmt>rechts halten auf Route de Pravidondaz</cmt>
+      <desc>rechts halten auf Route de Pravidondaz</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.210700031369925" lon="7.352869994938374">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin5</name>
+      <cmt>rechts abbiegen auf Route de Salins-Village</cmt>
+      <desc>rechts abbiegen auf Route de Salins-Village</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.209460012614727" lon="7.350969985127449">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin6</name>
+      <cmt>links halten auf Route de Salins-Village</cmt>
+      <desc>links halten auf Route de Salins-Village</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.20963997207582" lon="7.352309999987483">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Turin7</name>
+      <cmt>links abbiegen auf Route de Salins-Village</cmt>
+      <desc>links abbiegen auf Route de Salins-Village</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.210549995303154" lon="7.35604003071785">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins</name>
+      <cmt>in Salins rechts halten auf Route de Salins-Village</cmt>
+      <desc>in Salins rechts halten auf Route de Salins-Village</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.21024003252387" lon="7.356070037931204">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins1</name>
+      <cmt>rechts abbiegen auf Route de Salins-Village</cmt>
+      <desc>rechts abbiegen auf Route de Salins-Village</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.209859997034073" lon="7.355639962479472">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins2</name>
+      <cmt>links halten auf Chemin de Praduran</cmt>
+      <desc>links halten auf Chemin de Praduran</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.206860030069947" lon="7.349629970267415">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins3</name>
+      <cmt>links halten auf Chemin de Praduran</cmt>
+      <desc>links halten auf Chemin de Praduran</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.204049997031689" lon="7.344179973006249">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins4</name>
+      <cmt>links abbiegen auf Chemin du Salédo</cmt>
+      <desc>links abbiegen auf Chemin du Salédo</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.204949961975217" lon="7.351050032302737">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins5</name>
+      <cmt>rechts halten auf Chemin du Salédo</cmt>
+      <desc>rechts halten auf Chemin du Salédo</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.203239969909191" lon="7.349199978634715">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins6</name>
+      <cmt>links halten auf Chemin du Salédo</cmt>
+      <desc>links halten auf Chemin du Salédo</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.202639993280172" lon="7.347680004313588">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins7</name>
+      <cmt>bei CH 1991 Salins</cmt>
+      <desc>bei CH 1991 Salins</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.202639993280172" lon="7.349849995225668">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins8</name>
+      <cmt>links abbiegen auf Route de Veysonnaz</cmt>
+      <desc>links abbiegen auf Route de Veysonnaz</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.200609980151057" lon="7.348460024222732">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins9</name>
+      <cmt>scharf rechts abbiegen auf Route de Veysonnaz</cmt>
+      <desc>scharf rechts abbiegen auf Route de Veysonnaz</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.197610013186932" lon="7.341059977188706">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins10</name>
+      <cmt>halb links abbiegen auf Route de Salins</cmt>
+      <desc>halb links abbiegen auf Route de Salins</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.197250010445714" lon="7.340239975601435">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Salins11</name>
+      <cmt>halb rechts abbiegen auf Route de Salins</cmt>
+      <desc>halb rechts abbiegen auf Route de Salins</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.196539979428053" lon="7.339509995654225">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz</name>
+      <cmt>in Veysonnaz links abbiegen auf Chemin du Son</cmt>
+      <desc>in Veysonnaz links abbiegen auf Chemin du Son</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.196209983900189" lon="7.339809983968735">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz1</name>
+      <cmt>rechts abbiegen auf Route du Télécabine</cmt>
+      <desc>rechts abbiegen auf Route du Télécabine</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.196439983323216" lon="7.341110017150641">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz2</name>
+      <cmt>bei CH 1993 Veysonnaz</cmt>
+      <desc>bei CH 1993 Veysonnaz</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.19676997885108" lon="7.343970006331801">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz3</name>
+      <cmt>halb rechts abbiegen auf Route du Télécabine</cmt>
+      <desc>halb rechts abbiegen auf Route du Télécabine</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.195989958941936" lon="7.345870016142726">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz4</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.196499997749925" lon="7.357120038941503">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz5</name>
+      <cmt>scharf links abbiegen auf Route des Mayens de l'Ours</cmt>
+      <desc>scharf links abbiegen auf Route des Mayens de l'Ours</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.198650039732456" lon="7.366329990327358">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz6</name>
+      <cmt>links halten auf Mayens de l'Ours</cmt>
+      <desc>links halten auf Mayens de l'Ours</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.199529971927404" lon="7.367760026827455">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz7</name>
+      <cmt>links halten</cmt>
+      <desc>links halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.199889974668622" lon="7.37151000648737">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Veysonnaz8</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.199559979140759" lon="7.373129976913333">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion</name>
+      <cmt>in Les Mayens-de-Sion rechts halten</cmt>
+      <desc>in Les Mayens-de-Sion rechts halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.199169969186187" lon="7.376960003748536">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Agettes/Les Mayens-de-Sion</name>
+      <cmt>bei CH 1992 Les Agettes/Les Mayens-de-Sion</cmt>
+      <desc>bei CH 1992 Les Agettes/Les Mayens-de-Sion</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.19896000251174" lon="7.382330037653446">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion1</name>
+      <cmt>links halten</cmt>
+      <desc>links halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.199680007994175" lon="7.381769958883524">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion2</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.198720028623939" lon="7.390680005773902">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion3</name>
+      <cmt>halb links abbiegen auf Mayens-des-Plans</cmt>
+      <desc>halb links abbiegen auf Mayens-des-Plans</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.201569959521294" lon="7.387999976053834">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion4</name>
+      <cmt>scharf links abbiegen auf Mayens-des-Plans</cmt>
+      <desc>scharf links abbiegen auf Mayens-des-Plans</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.204830016940832" lon="7.38405997864902">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion5</name>
+      <cmt>rechts abbiegen auf La Coliore</cmt>
+      <desc>rechts abbiegen auf La Coliore</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.202159961685538" lon="7.391419960185885">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion6</name>
+      <cmt>rechts abbiegen auf La Coliore</cmt>
+      <desc>rechts abbiegen auf La Coliore</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.201599966734648" lon="7.394139971584082">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion7</name>
+      <cmt>links abbiegen auf Sainte-Anne</cmt>
+      <desc>links abbiegen auf Sainte-Anne</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.201139967888594" lon="7.395129958167672">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion8</name>
+      <cmt>rechts abbiegen auf Sainte-Anne</cmt>
+      <desc>rechts abbiegen auf Sainte-Anne</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.201750002801418" lon="7.395869996398687">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion9</name>
+      <cmt>links abbiegen auf Sainte-Anne</cmt>
+      <desc>links abbiegen auf Sainte-Anne</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.202639993280172" lon="7.39596001803875">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion10</name>
+      <cmt>halb rechts abbiegen auf La Toueille</cmt>
+      <desc>halb rechts abbiegen auf La Toueille</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.202309997752309" lon="7.396729979664087">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion11</name>
+      <cmt>links abbiegen auf La Toueille</cmt>
+      <desc>links abbiegen auf La Toueille</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.202519964426756" lon="7.397589962929487">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion12</name>
+      <cmt>halb rechts abbiegen auf La Toueille</cmt>
+      <desc>halb rechts abbiegen auf La Toueille</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.196499997749925" lon="7.401150008663535">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Mayens-de-Sion13</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.172219971194863" lon="7.399159977212548">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Hérémence</name>
+      <cmt>bei CH 1981 Hérémence</cmt>
+      <desc>bei CH 1981 Hérémence</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.128740021958947" lon="7.390080029144883">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Hérémence1</name>
+      <cmt>halb rechts abbiegen</cmt>
+      <desc>halb rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.08859003521502" lon="7.402829993516207">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong</name>
+      <cmt>in Pralong halb rechts abbiegen</cmt>
+      <desc>in Pralong halb rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.084750033915043" lon="7.404560018330813">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong1</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.082709962502122" lon="7.39954998716712">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong2</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.081270035356283" lon="7.398069994524121">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong3</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.081270035356283" lon="7.398069994524121">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Hérémence/Le Chargeur</name>
+      <cmt>bei CH 1987 Hérémence/Le Chargeur</cmt>
+      <desc>bei CH 1987 Hérémence/Le Chargeur</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.082709962502122" lon="7.39954998716712">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong4</name>
+      <cmt>links abbiegen auf Le Chargeur</cmt>
+      <desc>links abbiegen auf Le Chargeur</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.084660012274981" lon="7.404779959470034">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong5</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.088619958609343" lon="7.402530005201697">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong6</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.120909983292222" lon="7.392589990049601">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong7</name>
+      <cmt>links halten</cmt>
+      <desc>links halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.141780000180006" lon="7.389820022508502">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong8</name>
+      <cmt>rechts halten</cmt>
+      <desc>rechts halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.152480002492666" lon="7.395560033619404">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Pralong9</name>
+      <cmt>rechts abbiegen</cmt>
+      <desc>rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.168829994276166" lon="7.412600023671985">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Hérémence/Cerise</name>
+      <cmt>bei CH 1987 Hérémence/Cerise</cmt>
+      <desc>bei CH 1987 Hérémence/Cerise</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.169429970905185" lon="7.427570018917322">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Euseigne</name>
+      <cmt>in Euseigne rechts abbiegen</cmt>
+      <desc>in Euseigne rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.155799990519881" lon="7.448719991371036">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Hérémence/Euseigne</name>
+      <cmt>bei CH 1982 Hérémence/Euseigne</cmt>
+      <desc>bei CH 1982 Hérémence/Euseigne</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.127270003780723" lon="7.477490035817027">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Praz-Jean</name>
+      <cmt>geradeaus weiter auf La Villette</cmt>
+      <desc>geradeaus weiter auf La Villette</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.115819988772273" lon="7.490549962967634">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Praz-Jean1</name>
+      <cmt>rechts abbiegen auf Route Principale</cmt>
+      <desc>rechts abbiegen auf Route Principale</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.112279975786805" lon="7.497079968452454">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Evolène</name>
+      <cmt>in Evolène geradeaus weiter auf Pfafengal</cmt>
+      <desc>in Evolène geradeaus weiter auf Pfafengal</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.10593001358211" lon="7.502059992402792">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Evolène1</name>
+      <cmt>rechts abbiegen auf Route Cantonale</cmt>
+      <desc>rechts abbiegen auf Route Cantonale</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.086639985442162" lon="7.508799964562058">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Evolène2</name>
+      <cmt>rechts halten</cmt>
+      <desc>rechts halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.088790027424693" lon="7.502059992402792">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Tour</name>
+      <cmt>halb links abbiegen auf La Crettaz</cmt>
+      <desc>halb links abbiegen auf La Crettaz</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.05561001226306" lon="7.490850035101175">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Tour1</name>
+      <cmt>halb links abbiegen</cmt>
+      <desc>halb links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.023119995370507" lon="7.481609992682934">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Evolène/Arolla</name>
+      <cmt>bei CH 1986 Evolène/Arolla</cmt>
+      <desc>bei CH 1986 Evolène/Arolla</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.056030029430985" lon="7.490850035101175">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Gouille</name>
+      <cmt>in Arolla halb rechts abbiegen auf Mont Collon</cmt>
+      <desc>in Arolla halb rechts abbiegen auf Mont Collon</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.08988001011312" lon="7.501750029623509">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Gouille1</name>
+      <cmt>halb rechts abbiegen</cmt>
+      <desc>halb rechts abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.078940033912659" lon="7.504340037703514">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Gouille2</name>
+      <cmt>geradeaus weiter auf La Crettaz</cmt>
+      <desc>geradeaus weiter auf La Crettaz</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.080069998279214" lon="7.506680013611913">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Gouille3</name>
+      <cmt>halb links abbiegen auf La Crettaz</cmt>
+      <desc>halb links abbiegen auf La Crettaz</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.083970014005899" lon="7.511440012603998">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Haudères</name>
+      <cmt>in Les Haudères rechts abbiegen auf Les Haudères</cmt>
+      <desc>in Les Haudères rechts abbiegen auf Les Haudères</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.075560031458735" lon="7.531249970197678">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Haudères1</name>
+      <cmt>rechts abbiegen auf La Forclaz d'en Haut</cmt>
+      <desc>rechts abbiegen auf La Forclaz d'en Haut</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.070039961487055" lon="7.538950005546212">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Evolène/Ferpecle</name>
+      <cmt>bei CH 1984 Evolène/Ferpecle</cmt>
+      <desc>bei CH 1984 Evolène/Ferpecle</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.086100023239851" lon="7.520179990679026">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Forclaz6</name>
+      <cmt>in La Forclaz geradeaus weiter</cmt>
+      <desc>in La Forclaz geradeaus weiter</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.093720011413097" lon="7.515679998323321">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Forclaz11</name>
+      <cmt>links halten auf La Forclaz d'en Haut</cmt>
+      <desc>links halten auf La Forclaz d'en Haut</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.085680006071925" lon="7.511960025876761">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Forclaz21</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.081659961491823" lon="7.511479994282126">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Forclaz31</name>
+      <cmt>in Les Haudères rechts abbiegen auf Les Haudères</cmt>
+      <desc>in Les Haudères rechts abbiegen auf Les Haudères</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.08233998529613" lon="7.509930012747645">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Haudères2</name>
+      <cmt>rechts abbiegen auf Les Haudères</cmt>
+      <desc>rechts abbiegen auf Les Haudères</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.082910038530827" lon="7.5095300283283">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Haudères3</name>
+      <cmt>halb rechts abbiegen auf Les Haudères</cmt>
+      <desc>halb rechts abbiegen auf Les Haudères</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.084270002320409" lon="7.509019989520311">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Haudères4</name>
+      <cmt>rechts halten auf La Lée</cmt>
+      <desc>rechts halten auf La Lée</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.120159970596433" lon="7.485710000619292">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Les Haudères5</name>
+      <cmt>rechts abbiegen auf Les Haudères</cmt>
+      <desc>rechts abbiegen auf Les Haudères</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.169010037556291" lon="7.447860008105636">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>La Tour2</name>
+      <cmt>rechts halten</cmt>
+      <desc>rechts halten</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.198149975389242" lon="7.427440015599132">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Saint-Martin</name>
+      <cmt>in Mase links halten auf Route de Saint-Martin</cmt>
+      <desc>in Mase links halten auf Route de Saint-Martin</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.208210019394755" lon="7.427919963374734">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Vernamiège</name>
+      <cmt>bei CH 1961 Vernamiège</cmt>
+      <desc>bei CH 1961 Vernamiège</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.214489992707968" lon="7.422339962795377">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Mase</name>
+      <cmt>links abbiegen</cmt>
+      <desc>links abbiegen</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.215449972078204" lon="7.418139958754182">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Mase1</name>
+      <cmt>links halten auf La Villette</cmt>
+      <desc>links halten auf La Villette</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.230379985645413" lon="7.412089984863997">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Mase2</name>
+      <cmt>rechts abbiegen auf Route de Nax</cmt>
+      <desc>rechts abbiegen auf Route de Nax</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.229310035705566" lon="7.407199982553721">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sitten</name>
+      <cmt>bei CH 1950 Sitten</cmt>
+      <desc>bei CH 1950 Sitten</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.228890018537641" lon="7.403090000152588">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Bramois</name>
+      <cmt>in Bramois links halten auf Rue de la Manufacture</cmt>
+      <desc>in Bramois links halten auf Rue de la Manufacture</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.227840017527342" lon="7.397159971296787">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Bramois1</name>
+      <cmt>links abbiegen auf Rue du vieux-Village</cmt>
+      <desc>links abbiegen auf Rue du vieux-Village</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.226679962128401" lon="7.386519983410835">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Bramois2</name>
+      <cmt>in Sion einfahren in Kreisverkehr</cmt>
+      <desc>in Sion einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.227599959820509" lon="7.3862299695611">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion8</name>
+      <cmt>1. Möglichkeit aus Kreisverkehr ausfahren auf Route d'Hérens</cmt>
+      <desc>1. Möglichkeit aus Kreisverkehr ausfahren auf Route d'Hérens</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.230830010026693" lon="7.385490015149117">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion9</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.230739988386631" lon="7.384839998558164">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion10</name>
+      <cmt>3. Möglichkeit aus Kreisverkehr ausfahren auf Route de Chippis</cmt>
+      <desc>3. Möglichkeit aus Kreisverkehr ausfahren auf Route de Chippis</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.230960013344884" lon="7.382200034335256">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion11</name>
+      <cmt>einfahren in Kreisverkehr</cmt>
+      <desc>einfahren in Kreisverkehr</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.230830010026693" lon="7.382029965519905">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sion12</name>
+      <cmt>2. Möglichkeit aus Kreisverkehr ausfahren auf Route de Chippis</cmt>
+      <desc>2. Möglichkeit aus Kreisverkehr ausfahren auf Route de Chippis</desc>
+      <sym>Flag, Blue</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.230570003390312" lon="7.37769995816052">
+      <time>2015-06-29T21:38:19Z</time>
+      <name>Sitten1</name>
+      <cmt>bei CH 1950 Sitten</cmt>
+      <desc>bei CH 1950 Sitten</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>Direct</trp:CalculationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>
