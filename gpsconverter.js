@@ -105,6 +105,31 @@ const createPassObjects = (waypoints) => {
     });
 };
 
+const convertToGeojson = (passes) => {
+    return new Promise((resolve) => {
+        let result = {
+            type: 'FeatureCollection',
+            features: []
+        };
+        passes.forEach((pass) => {
+            result.features.push({
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [pass.point[1], pass.point[0]]
+                },
+                properties: {
+                    name: pass.name,
+                    elevation: pass.elevation,
+                    slope: pass.slope
+                }
+            });
+        });
+
+        resolve(result);
+    });
+};
+
 const writeToFile = (path, content) => {
     return new Promise((resolve, reject) => {
         const json = JSON.stringify(content, null, 2);
@@ -124,6 +149,7 @@ listFilesInDir(gpxFolder)
     .then(extractRoutes)
     .then(extractPoints)
     .then(createPassObjects)
+    .then(convertToGeojson)
     .then((passes) => {
         return writeToFile(jsonPath, passes);
     });
