@@ -1,8 +1,6 @@
-const gpxFolder = './gps/';
 const fs = require('fs');
 const path = require('path');
 const gpxParse = require('gpx-parse');
-const jsonPath = './src/json/passes.json';
 
 const processFile = (filePath) => {
     return new Promise((resolve, reject) => {
@@ -60,27 +58,6 @@ const extractRoutes = (datas) => {
     });
 };
 
-const extractPoints = (routes) => {
-    return new Promise((resolve) => {
-        let points = [];
-        routes.forEach((route) => {
-            route.points.filter((point) => {
-                if (!point.name) {
-                    return false;
-                }
-
-                let splitted = point.name.split('/');
-                // name / elevation / slope
-                return splitted.length > 2;
-            }).forEach((point) => {
-                points.push(point);
-            });
-        });
-
-        resolve(points);
-    });
-};
-
 const createPassObjects = (waypoints) => {
     return new Promise((resolve) => {
         let passes = [];
@@ -105,31 +82,6 @@ const createPassObjects = (waypoints) => {
     });
 };
 
-const convertToGeojson = (passes) => {
-    return new Promise((resolve) => {
-        let result = {
-            type: 'FeatureCollection',
-            features: []
-        };
-        passes.forEach((pass) => {
-            result.features.push({
-                type: 'Feature',
-                geometry: {
-                    type: 'Point',
-                    coordinates: [pass.point[1], pass.point[0]]
-                },
-                properties: {
-                    name: pass.name,
-                    elevation: pass.elevation,
-                    slope: pass.slope
-                }
-            });
-        });
-
-        resolve(result);
-    });
-};
-
 const writeToFile = (path, content) => {
     return new Promise((resolve, reject) => {
         const json = JSON.stringify(content, null, 2);
@@ -144,12 +96,10 @@ const writeToFile = (path, content) => {
     });
 }
 
-listFilesInDir(gpxFolder)
-    .then(parseGpxFiles)
-    .then(extractRoutes)
-    .then(extractPoints)
-    .then(createPassObjects)
-    .then(convertToGeojson)
-    .then((passes) => {
-        return writeToFile(jsonPath, passes);
-    });
+module.exports = {
+    listFilesInDir: listFilesInDir,
+    parseGpxFiles: parseGpxFiles,
+    extractRoutes: extractRoutes,
+    createPassObjects: createPassObjects,
+    writeToFile: writeToFile
+}
