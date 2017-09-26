@@ -35,7 +35,7 @@ const convertToGeojson = (passes) => {
                 type: 'Feature',
                 geometry: {
                     type: 'Point',
-                    coordinates: [pass.point[1], pass.point[0]]
+                    coordinates: [pass.point.lon, pass.point.lat]
                 },
                 properties: {
                     name: pass.name,

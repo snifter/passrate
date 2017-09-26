@@ -70,7 +70,10 @@ const createPassObjects = (waypoints) => {
 
             const pass = {
                 name: name,
-                point: [waypoint.lat, waypoint.lon],
+                point: { 
+                    lat: waypoint.lat, 
+                    lon: waypoint.lon 
+                },
                 elevation: elevation,
                 slope: slope
             };
