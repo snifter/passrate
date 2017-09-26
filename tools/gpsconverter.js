@@ -1,4 +1,4 @@
-const gpxFolder = '../gps/';
+const gpxFolderPath = '../gps/';
 const jsonPath = '../src/json/passes.json';
 
 const common = require('./common');
@@ -21,6 +21,18 @@ const extractPoints = (routes) => {
         });
 
         resolve(points);
+    });
+};
+
+
+const createPassObjects = (waypoints) => {
+    return new Promise((resolve) => {
+        let passes = [];
+        waypoints.forEach((waypoint) => {
+            passes.push(common.createPassObject(waypoint));
+        });
+
+        resolve(passes);
     });
 };
 
@@ -49,11 +61,11 @@ const convertToGeojson = (passes) => {
     });
 };
 
-common.listFilesInDir(gpxFolder)
+common.listFilesInDir(gpxFolderPath)
     .then(common.parseGpxFiles)
     .then(common.extractRoutes)
     .then(extractPoints)
-    .then(common.createPassObjects)
+    .then(createPassObjects)
     .then(convertToGeojson)
     .then((passes) => {
         return common.writeToFile(jsonPath, passes);

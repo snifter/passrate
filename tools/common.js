@@ -58,31 +58,22 @@ const extractRoutes = (datas) => {
     });
 };
 
-const createPassObjects = (waypoints) => {
-    return new Promise((resolve) => {
-        let passes = [];
-        waypoints.forEach((waypoint) => {
-            let splitted = waypoint.name.split('/');
+const createPassObject = (waypoint) => {
+    let splitted = waypoint.name.split('/');
+    
+    const name = splitted[0].trim();
+    const elevation = splitted[1].trim();
+    const slope = splitted[2].trim();
 
-            const name = splitted[0].trim();
-            const elevation = splitted[1].trim();
-            const slope = splitted[2].trim();
-
-            const pass = {
-                name: name,
-                point: { 
-                    lat: waypoint.lat, 
-                    lon: waypoint.lon 
-                },
-                elevation: elevation,
-                slope: slope
-            };
-
-            passes.push(pass);
-        });
-
-        resolve(passes);
-    });
+    return {
+        name: name,
+        point: { 
+            lat: waypoint.lat, 
+            lon: waypoint.lon 
+        },
+        elevation: elevation,
+        slope: slope
+    };
 };
 
 const writeToFile = (path, content) => {
@@ -103,6 +94,6 @@ module.exports = {
     listFilesInDir: listFilesInDir,
     parseGpxFiles: parseGpxFiles,
     extractRoutes: extractRoutes,
-    createPassObjects: createPassObjects,
+    createPassObject: createPassObject,
     writeToFile: writeToFile
 }
