@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "09 Alpl Pass",
+    "name": "Alpl Pass",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.5028691,
+      "lon": 15.6307352
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1081m",
+    "slope": "16%",
     "source": "09 Alpl Pass.gpx"
   },
   "routePoints": [

@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "03 Trattberg",
+    "name": "Trattberg",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.6437224,
+      "lon": 13.2408389
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1550m",
+    "slope": "19%",
     "source": "03 Trattberg.gpx"
   },
   "routePoints": [

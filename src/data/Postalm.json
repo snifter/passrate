@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "04 Postalm",
+    "name": "Postalm",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.6027165,
+      "lon": 13.3643539
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1320m",
+    "slope": "13%",
     "source": "04 Postalm.gpx"
   },
   "routePoints": [
