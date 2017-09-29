@@ -6,7 +6,8 @@
       "lon": 6.575609995052218
     },
     "elevation": "2250m",
-    "slope": "11%"
+    "slope": "11%",
+    "source": "90 Col d'Allos.gpx"
   },
   "routePoints": [
     {

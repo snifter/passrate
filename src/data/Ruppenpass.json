@@ -6,7 +6,8 @@
       "lon": 9.512600032612681
     },
     "elevation": "1003m",
-    "slope": "9%"
+    "slope": "9%",
+    "source": "47 Ruppenpass.gpx"
   },
   "routePoints": [
     {

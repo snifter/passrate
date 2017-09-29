@@ -6,7 +6,8 @@
       "lon": 7.401150008663535
     },
     "elevation": "1003m",
-    "slope": "15%"
+    "slope": "15%",
+    "source": "100 Col de Braus.gpx"
   },
   "routePoints": [
     {

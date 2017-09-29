@@ -6,7 +6,8 @@
       "lon": 11.22456000186503
     },
     "elevation": "1343m",
-    "slope": "11%"
+    "slope": "11%",
+    "source": "35 Passo del Sommo.gpx"
   },
   "routePoints": [
     {

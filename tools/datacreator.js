@@ -23,7 +23,7 @@ const listFilesInDir = (dirPath) => {
     });
 };
 
-const createPassObject = (waypoint) => {
+const createPassObject = (waypoint, filePath) => {
     let splitted = waypoint.name.split('/');
     
     const name = splitted[0].trim();
@@ -37,7 +37,8 @@ const createPassObject = (waypoint) => {
             lon: waypoint.lon 
         },
         elevation: elevation,
-        slope: slope
+        slope: slope,
+        source: path.basename(filePath)
     };
 };
 
@@ -49,7 +50,8 @@ const createEmptyPassObject = (filePath) => {
             lon: 0 
         },
         elevation: '',
-        slope: ''
+        slope: '',
+        source: path.basename(filePath)
     };
 };
 
@@ -115,7 +117,7 @@ const processFile = (filePath) => {
             passes.forEach((passPoints) => {
                 let passData = { 
                     pass: passPoints.pass 
-                        ? createPassObject(passPoints.pass) 
+                        ? createPassObject(passPoints.pass, filePath) 
                         : createEmptyPassObject(filePath),
                     routePoints: passPoints.waypoints.map((waypoint) => {
                         return {

@@ -6,7 +6,8 @@
       "lon": 14.528630040585995
     },
     "elevation": "1010m",
-    "slope": "20%"
+    "slope": "20%",
+    "source": "05 Hengstpass.gpx"
   },
   "routePoints": [
     {

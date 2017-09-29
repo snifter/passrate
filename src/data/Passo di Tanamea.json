@@ -6,7 +6,8 @@
       "lon": 13.380479961633682
     },
     "elevation": "850m",
-    "slope": "9%"
+    "slope": "9%",
+    "source": "12 Tanamea.gpx"
   },
   "routePoints": [
     {
