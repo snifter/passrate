@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "10 Weinebene",
+    "name": "Weinebene",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.8416195,
+      "lon": 15.0036014
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1668m",
+    "slope": "15%",
     "source": "10 Weinebene.gpx"
   },
   "routePoints": [

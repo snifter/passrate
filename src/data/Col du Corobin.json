@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "93 Col du Corobin",
+    "name": "Col du Corobin",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.0079331,
+      "lon": 6.3113382
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1215m",
+    "slope": "7%",
     "source": "93 Col du Corobin.gpx"
   },
   "routePoints": [

@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "15 Eggeralm",
+    "name": "Eggeralm",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.5859417,
+      "lon": 13.3798971
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1420m",
+    "slope": "16%",
     "source": "15 Eggeralm.gpx"
   },
   "routePoints": [

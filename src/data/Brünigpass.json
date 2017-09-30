@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "53 Brünigpass",
+    "name": "Brünigpass",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.7564991,
+      "lon": 8.1280352
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1008m",
+    "slope": "13%",
     "source": "53 Brünigpass.gpx"
   },
   "routePoints": [

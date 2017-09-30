@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "42 Pfitscher Joch",
+    "name": "Pfitscher Joch",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.987154,
+      "lon": 11.6450031
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1500m",
+    "slope": "13%",
     "source": "42 Pfitscher Joch.gpx"
   },
   "routePoints": [

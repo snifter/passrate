@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "17 Panoramica delle Vette",
+    "name": "Panoramica delle Vette",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.556077,
+      "lon": 12.9079773
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1969m",
+    "slope": "15%",
     "source": "17 Panoramica delle Vette.gpx"
   },
   "routePoints": [

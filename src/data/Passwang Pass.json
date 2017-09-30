@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "54 Passwang Pass",
+    "name": "Passwang Pass",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.3575991,
+      "lon": 7.6473952
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "943m",
+    "slope": "15%",
     "source": "54 Passwang Pass.gpx"
   },
   "routePoints": [

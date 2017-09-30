@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "66+67 Col du Grand Taillet + Col de Trechauffe",
+    "name": "Col du Grand Taillet",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.3251131,
+      "lon": 6.6104522
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1230m",
+    "slope": "14%",
     "source": "66+67 Col du Grand Taillet + Col de Trechauffe.gpx"
   },
   "routePoints": [

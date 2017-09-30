@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "73 Col de Joux Plane",
+    "name": "Col de Joux Plane",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.1328501,
+      "lon": 6.7023732
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1700m",
+    "slope": "13%",
     "source": "73 Col de Joux Plane.gpx"
   },
   "routePoints": [

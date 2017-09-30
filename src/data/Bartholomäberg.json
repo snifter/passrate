@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "44 Bartholomäberg",
+    "name": "Bartholomäberg",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.0937194,
+      "lon": 9.8990759
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1150m",
+    "slope": "15%",
     "source": "44 Bartholomäberg.gpx"
   },
   "routePoints": [

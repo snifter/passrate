@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "52 Bürgenstock",
+    "name": "Bürgenstock",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.995097,
+      "lon": 8.4007886
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "930m",
+    "slope": "12%",
     "source": "52 Bürgenstock.gpx"
   },
   "routePoints": [

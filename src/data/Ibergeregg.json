@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "51 Ibergeregg",
+    "name": "Ibergeregg",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.0175298,
+      "lon": 8.7245532
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1406m",
+    "slope": "13%",
     "source": "51 Ibergeregg.gpx"
   },
   "routePoints": [

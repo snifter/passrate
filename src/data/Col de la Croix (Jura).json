@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "56 Col de la Croix",
+    "name": "Col de la Croix",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.366889,
+      "lon": 7.1396763
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "789m",
+    "slope": "13%",
     "source": "56 Col de la Croix.gpx"
   },
   "routePoints": [

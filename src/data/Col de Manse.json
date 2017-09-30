@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "85 Col de Mande",
+    "name": "Col de Manse",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 44.6126891,
+      "lon": 6.1192792
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1272m",
+    "slope": "14%",
     "source": "85 Col de Mande.gpx"
   },
   "routePoints": [

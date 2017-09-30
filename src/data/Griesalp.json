@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "58 Griesalp",
+    "name": "Griesalp",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.586368,
+      "lon": 7.7225513
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1425m",
+    "slope": "28%",
     "source": "58 Griesalp.gpx"
   },
   "routePoints": [

@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "14 San Simeone",
+    "name": "San Simeone",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.332306,
+      "lon": 13.1011623
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1218m",
+    "slope": "9%",
     "source": "14 San Simeone.gpx"
   },
   "routePoints": [

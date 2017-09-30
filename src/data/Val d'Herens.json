@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "59 Val d'Herens",
+    "name": "Val d'Herens",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 46.026166,
+      "lon": 7.4814323
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "2300m",
+    "slope": "15%",
     "source": "59 Val d'Herens.gpx"
   },
   "routePoints": [

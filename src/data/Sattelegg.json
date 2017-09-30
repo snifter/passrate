@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "50 Sattelegg",
+    "name": "Sattelegg",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.1272991,
+      "lon": 8.8378652
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1190m",
+    "slope": "13%",
     "source": "50 Sattelegg.gpx"
   },
   "routePoints": [

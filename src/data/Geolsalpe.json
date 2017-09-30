@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "40 Geolsalpe",
+    "name": "Geolsalpe",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.314343,
+      "lon": 11.7917843
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1835m",
+    "slope": "13%",
     "source": "40 Geolsalpe.gpx"
   },
   "routePoints": [

@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "24 Kalser Glocknerstraße",
+    "name": "Kalser Glocknerstraße",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.000816,
+      "lon": 12.6432683
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1986m",
+    "slope": "15%",
     "source": "24 Kalser Glocknerstraße.gpx"
   },
   "routePoints": [

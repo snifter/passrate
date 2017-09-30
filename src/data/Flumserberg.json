@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "49 Flumserberg",
+    "name": "Flumserberg",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.092265,
+      "lon": 9.2784522
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1350m",
+    "slope": "15%",
     "source": "49 Flumserberg.gpx"
   },
   "routePoints": [

@@ -1,12 +1,12 @@
 {
   "pass": {
-    "name": "41 Schlegeis",
+    "name": "Schlegeis",
     "point": {
-      "lat": 0,
-      "lon": 0
+      "lat": 47.031043,
+      "lon": 11.6945373
     },
-    "elevation": "",
-    "slope": "",
+    "elevation": "1805m",
+    "slope": "12%",
     "source": "41 Schlegeis.gpx"
   },
   "routePoints": [
