@@ -2,6 +2,16 @@ const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
 const reload      = browserSync.reload;
 
+const pug = require('gulp-pug');
+
+gulp.task('templates', () => {
+    return gulp.src('./src/templates/*.pug')
+        .pipe(pug({
+            pretty: true
+        }))
+        .pipe(gulp.dest('dist'));
+});
+
 // Static server
 gulp.task('serve', () => {
     browserSync.init({
