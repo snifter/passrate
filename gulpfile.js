@@ -1,26 +1,46 @@
-const gulp        = require('gulp');
-const browserSync = require('browser-sync').create();
-const reload      = browserSync.reload;
-
+const gulp = require('gulp');
+const clean = require('gulp-clean');
 const pug = require('gulp-pug');
 
+const browserSync = require('browser-sync').create();
+const reload = browserSync.reload;
+
+const distDirPath = './dist/';
+
 gulp.task('templates', () => {
-    return gulp.src('./src/templates/*.pug')
+    gulp.src('./src/templates/*.pug')
         .pipe(pug({
             pretty: true
         }))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest(distDirPath));
 });
 
+gulp.task('js', () => {
+    gulp.src('./src/js/*.js')
+        .pipe(gulp.dest(distDirPath));
+});
+
+gulp.task('styles', () => {
+    gulp.src('./src/css/*.css')
+        .pipe(gulp.dest(distDirPath));
+});
+
+gulp.task('clean', () => {
+    gulp.src(distDirPath)
+        .pipe(clean());
+});
+
+gulp.task('build', ['templates', 'js', 'styles']);
+
 // Static server
-gulp.task('serve', () => {
+gulp.task('serve', ['clean', 'build'], () => {
     browserSync.init({
         server: {
-            baseDir: './src/'
+            baseDir: distDirPath
         }
     });
 
-    gulp.watch('./src/index.html').on('change', reload);
-    gulp.watch('./src/js/*.js').on('change', reload);
-    gulp.watch('./src/json/*.json').on('change', reload);
+    gulp.watch(`${distDirPath}/*`).on('change', reload);
 });
+
+gulp.task('default', ['clean', 'build']);
