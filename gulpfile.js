@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const clean = require('gulp-clean');
+const del = require('del');
 const pug = require('gulp-pug');
 
 const browserSync = require('browser-sync').create();
@@ -26,8 +26,7 @@ gulp.task('styles', () => {
 });
 
 gulp.task('clean', () => {
-    gulp.src(distDirPath)
-        .pipe(clean());
+    return del(distDirPath);
 });
 
 gulp.task('build', ['templates', 'js', 'styles']);

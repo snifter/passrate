@@ -9,14 +9,13 @@
   },
   "author": "snifter",
   "license": "ISC",
-  "dependencies": {
-    "gpx-parse": "git+https://github.com/snifter/gpx-parse.git",
-    "pug": "^2.0.0-rc.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gpx-parse": "git+https://github.com/snifter/gpx-parse.git",
     "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
-    "gulp-pug": "^3.3.0"
+    "gulp-pug": "^3.3.0",
+    "pug": "^2.0.0-rc.4"
   }
 }
