@@ -1,0 +1,1535 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.051339972764254,
+          45.07618001662195
+        ]
+      },
+      "properties": {
+        "name": "Alpe -d´Huez",
+        "elevation": "1860m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6307352,
+          47.5028691
+        ]
+      },
+      "properties": {
+        "name": "Alpl Pass",
+        "elevation": "1081m",
+        "slope": "16%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.484619971364737,
+          46.56852004118264
+        ]
+      },
+      "properties": {
+        "name": "Antonio Passo S.",
+        "elevation": "1476m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8990759,
+          47.0937194
+        ]
+      },
+      "properties": {
+        "name": "Bartholomäberg",
+        "elevation": "1150m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.70078000985086,
+          46.142830001190305
+        ]
+      },
+      "properties": {
+        "name": "Broconpass",
+        "elevation": "1615m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1280352,
+          46.7564991
+        ]
+      },
+      "properties": {
+        "name": "Brünigpass",
+        "elevation": "1008m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4007886,
+          46.995097
+        ]
+      },
+      "properties": {
+        "name": "Bürgenstock",
+        "elevation": "930m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.083509968593717,
+          44.633280001580715
+        ]
+      },
+      "properties": {
+        "name": "Col Bayard",
+        "elevation": "1248m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.323150005191565,
+          44.30689003318548
+        ]
+      },
+      "properties": {
+        "name": "Col Franget",
+        "elevation": "1459m",
+        "slope": "17%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.342409966513515,
+          43.89492996968329
+        ]
+      },
+      "properties": {
+        "name": "Col St. Roch",
+        "elevation": "990m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.738419998437166,
+          44.80994998477399
+        ]
+      },
+      "properties": {
+        "name": "Col d Izoard",
+        "elevation": "2361m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.401150008663535,
+          43.872790010645986
+        ]
+      },
+      "properties": {
+        "name": "Col de Braus",
+        "elevation": "1003m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.121559977531433,
+          46.026639975607395
+        ]
+      },
+      "properties": {
+        "name": "Col de Champex",
+        "elevation": "1498m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.504379995167255,
+          46.21610996313393
+        ]
+      },
+      "properties": {
+        "name": "Col de Jambaz",
+        "elevation": "1027m",
+        "slope": "7%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7023732,
+          46.1328501
+        ]
+      },
+      "properties": {
+        "name": "Col de Joux Plane",
+        "elevation": "1700m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1192792,
+          44.6126891
+        ]
+      },
+      "properties": {
+        "name": "Col de Manse",
+        "elevation": "1272m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.389459995552898,
+          44.281030017882586
+        ]
+      },
+      "properties": {
+        "name": "Col de Maure",
+        "elevation": "1347m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.215180028229952,
+          44.57823000848293
+        ]
+      },
+      "properties": {
+        "name": "Col de Moissiere",
+        "elevation": "1573m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.724530011415482,
+          44.931239979341626
+        ]
+      },
+      "properties": {
+        "name": "Col de Montegenevre",
+        "elevation": "1854m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.633379999548197,
+          45.69489003159106
+        ]
+      },
+      "properties": {
+        "name": "Col de Méraillet",
+        "elevation": "1605m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6271365,
+          46.314135
+        ]
+      },
+      "properties": {
+        "name": "Col de Trechauffe",
+        "elevation": "1241m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.391669992357492,
+          43.97681001573801
+        ]
+      },
+      "properties": {
+        "name": "Col de Turini",
+        "elevation": "1607m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.919649988412857,
+          44.08970000222325
+        ]
+      },
+      "properties": {
+        "name": "Col de Valberg",
+        "elevation": "1669m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.375329975038767,
+          43.8982000015676
+        ]
+      },
+      "properties": {
+        "name": "Col de l' Orme",
+        "elevation": "1000m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.670679971575737,
+          46.18973999284208
+        ]
+      },
+      "properties": {
+        "name": "Col de l'Encrenaz",
+        "elevation": "1433m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.026009969413281,
+          44.093140019103885
+        ]
+      },
+      "properties": {
+        "name": "Col de la Couillole",
+        "elevation": "1678m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1396763,
+          47.366889
+        ]
+      },
+      "properties": {
+        "name": "Col de la Croix",
+        "elevation": "789m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.126790033653379,
+          46.32544996216893
+        ]
+      },
+      "properties": {
+        "name": "Col de la Croix",
+        "elevation": "1779m",
+        "slope": "9%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.763850022107363,
+          46.200969982892275
+        ]
+      },
+      "properties": {
+        "name": "Col de la Joux Verte",
+        "elevation": "1760m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.129429997876287,
+          44.223190024495125
+        ]
+      },
+      "properties": {
+        "name": "Col de la Lombarde",
+        "elevation": "2351m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.580160027369857,
+          46.15753998979926
+        ]
+      },
+      "properties": {
+        "name": "Col de la Ramaz",
+        "elevation": "1559m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.72994002699852,
+          44.15669999085367
+        ]
+      },
+      "properties": {
+        "name": "Col des Champs",
+        "elevation": "2093m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.532660033553839,
+          45.76606999151409
+        ]
+      },
+      "properties": {
+        "name": "Col des Saisies",
+        "elevation": "1633m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.637340029701591,
+          43.93519001081586
+        ]
+      },
+      "properties": {
+        "name": "Col des Toutes Aures",
+        "elevation": "1124m",
+        "slope": "8%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.646100040525198,
+          46.284590028226376
+        ]
+      },
+      "properties": {
+        "name": "Col du Corbier",
+        "elevation": "1237m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3113382,
+          44.0079331
+        ]
+      },
+      "properties": {
+        "name": "Col du Corobin",
+        "elevation": "1215m",
+        "slope": "7%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.514369966462255,
+          46.291810031980276
+        ]
+      },
+      "properties": {
+        "name": "Col du Feu",
+        "elevation": "1117m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6104522,
+          46.3251131
+        ]
+      },
+      "properties": {
+        "name": "Col du Grand Taillet",
+        "elevation": "1230m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.360249985009432,
+          44.222289975732565
+        ]
+      },
+      "properties": {
+        "name": "Col du Labouret",
+        "elevation": "1240m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.903980020433664,
+          44.418660029768944
+        ]
+      },
+      "properties": {
+        "name": "Col du Larche",
+        "elevation": "1691m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.342650000005961,
+          45.2150399889797
+        ]
+      },
+      "properties": {
+        "name": "Col du Mollard",
+        "elevation": "1638m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.968529978767037,
+          45.2220200188458
+        ]
+      },
+      "properties": {
+        "name": "Col du Mont Cenis",
+        "elevation": "2081m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.267919993028045,
+          46.39004996046424
+        ]
+      },
+      "properties": {
+        "name": "Col du Pillon",
+        "elevation": "1546m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6058000177145,
+          45.68714004009962
+        ]
+      },
+      "properties": {
+        "name": "Col du Pré",
+        "elevation": "1703m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.156449960544705,
+          45.09687996469438
+        ]
+      },
+      "properties": {
+        "name": "Col du Sarenne",
+        "elevation": "1999m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.575609995052218,
+          44.300260031595826
+        ]
+      },
+      "properties": {
+        "name": "Col d´Allos",
+        "elevation": "2250m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.104850020259619,
+          46.33912998251617
+        ]
+      },
+      "properties": {
+        "name": "Duranpass",
+        "elevation": "1601m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3798971,
+          46.5859417
+        ]
+      },
+      "properties": {
+        "name": "Eggeralm",
+        "elevation": "1420m",
+        "slope": "16%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2784522,
+          47.092265
+        ]
+      },
+      "properties": {
+        "name": "Flumserberg",
+        "elevation": "1350m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.08542998880148,
+          46.31075003184378
+        ]
+      },
+      "properties": {
+        "name": "Forcella Franche",
+        "elevation": "992m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.688120007514954,
+          46.51670001447201
+        ]
+      },
+      "properties": {
+        "name": "Forcella Lavardet",
+        "elevation": "1760m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.106200009584427,
+          46.42196003347635
+        ]
+      },
+      "properties": {
+        "name": "Forcella Staulanza",
+        "elevation": "1766m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.072939971461892,
+          46.53808996081352
+        ]
+      },
+      "properties": {
+        "name": "Forcella di Lius",
+        "elevation": "1019m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.79205996543169,
+          46.31164999678731
+        ]
+      },
+      "properties": {
+        "name": "Forcella di Monte Rest",
+        "elevation": "1052m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.001039981842041,
+          46.73774999566376
+        ]
+      },
+      "properties": {
+        "name": "Furkel Sattel",
+        "elevation": "1759m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7917843,
+          47.314343
+        ]
+      },
+      "properties": {
+        "name": "Geolsalpe",
+        "elevation": "1835m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7225513,
+          46.586368
+        ]
+      },
+      "properties": {
+        "name": "Griesalp",
+        "elevation": "1425m",
+        "slope": "28%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.451230036094785,
+          46.73301002942026
+        ]
+      },
+      "properties": {
+        "name": "Gurnigel",
+        "elevation": "1750m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.528630040585995,
+          47.70998999476433
+        ]
+      },
+      "properties": {
+        "name": "Hengstpass",
+        "elevation": "1010m",
+        "slope": "20%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7245532,
+          47.0175298
+        ]
+      },
+      "properties": {
+        "name": "Ibergeregg",
+        "elevation": "1406m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.843059990555048,
+          46.83733002282679
+        ]
+      },
+      "properties": {
+        "name": "Iselsbergpass",
+        "elevation": "1208m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6432683,
+          47.000816
+        ]
+      },
+      "properties": {
+        "name": "Kalser Glocknerstraße",
+        "elevation": "1986m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.560049986466765,
+          46.69228998944163
+        ]
+      },
+      "properties": {
+        "name": "Lenzerheide",
+        "elevation": "1549m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.891420003026724,
+          45.78524996526539
+        ]
+      },
+      "properties": {
+        "name": "Monte Baldo Höhenstraße",
+        "elevation": "1617m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.845850013196468,
+          46.24970999546349
+        ]
+      },
+      "properties": {
+        "name": "Morginspass",
+        "elevation": "1369m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.37069003097713,
+          47.680270029231906
+        ]
+      },
+      "properties": {
+        "name": "Niederalpl",
+        "elevation": "1223m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9079773,
+          46.556077
+        ]
+      },
+      "properties": {
+        "name": "Panoramica delle Vette",
+        "elevation": "1969m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.245449967682362,
+          45.86706002242863
+        ]
+      },
+      "properties": {
+        "name": "Passo Coe",
+        "elevation": "1608m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.22456000186503,
+          45.930450009182096
+        ]
+      },
+      "properties": {
+        "name": "Passo del Sommo",
+        "elevation": "1343m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.21931997127831,
+          45.95710001885891
+        ]
+      },
+      "properties": {
+        "name": "Passo della Fricca",
+        "elevation": "1113m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.765229972079396,
+          46.1468399874866
+        ]
+      },
+      "properties": {
+        "name": "Passo di Góbbera",
+        "elevation": "988m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.794660031795502,
+          46.34178000502288
+        ]
+      },
+      "properties": {
+        "name": "Passo di M. Rest",
+        "elevation": "1052m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.380479961633682,
+          46.306330002844334
+        ]
+      },
+      "properties": {
+        "name": "Passo di Tanamea",
+        "elevation": "850m",
+        "slope": "9%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.436760034412146,
+          45.940890004858375
+        ]
+      },
+      "properties": {
+        "name": "Passo di Vézzena",
+        "elevation": "1402m",
+        "slope": "17%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6473952,
+          47.3575991
+        ]
+      },
+      "properties": {
+        "name": "Passwang Pass",
+        "elevation": "943m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6450031,
+          46.987154
+        ]
+      },
+      "properties": {
+        "name": "Pfitscher Joch",
+        "elevation": "1500m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3643539,
+          47.6027165
+        ]
+      },
+      "properties": {
+        "name": "Postalm",
+        "elevation": "1320m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.577479999512434,
+          46.418569972738624
+        ]
+      },
+      "properties": {
+        "name": "Predilpass",
+        "elevation": "1156m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.724369967356324,
+          47.67460998147726
+        ]
+      },
+      "properties": {
+        "name": "Preiner Gscheid",
+        "elevation": "1070m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.582069989293814,
+          46.794990012422204
+        ]
+      },
+      "properties": {
+        "name": "Pustertaler Höhenstrasse",
+        "elevation": "1480m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.774009978398681,
+          45.669920006766915
+        ]
+      },
+      "properties": {
+        "name": "Roselendpass",
+        "elevation": "1968m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.512600032612681,
+          47.392430026084185
+        ]
+      },
+      "properties": {
+        "name": "Ruppenpass",
+        "elevation": "1003m",
+        "slope": "9%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1011623,
+          46.332306
+        ]
+      },
+      "properties": {
+        "name": "San Simeone",
+        "elevation": "1218m",
+        "slope": "9%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.242439966648817,
+          46.60119001753628
+        ]
+      },
+      "properties": {
+        "name": "Sant-Angelo-Pass",
+        "elevation": "1756m",
+        "slope": "11%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.721170019358397,
+          46.57024000771344
+        ]
+      },
+      "properties": {
+        "name": "Sappadapass",
+        "elevation": "1299m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8378652,
+          47.1272991
+        ]
+      },
+      "properties": {
+        "name": "Sattelegg",
+        "elevation": "1190m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.619360033422709,
+          47.34526002779603
+        ]
+      },
+      "properties": {
+        "name": "Schelten Pass",
+        "elevation": "1051m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6945373,
+          47.031043
+        ]
+      },
+      "properties": {
+        "name": "Schlegeis",
+        "elevation": "1805m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.31373997963965,
+          46.45135000348091
+        ]
+      },
+      "properties": {
+        "name": "Sella Nevea",
+        "elevation": "1184m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.62414999306202,
+          46.495060035958886
+        ]
+      },
+      "properties": {
+        "name": "Sella di Razzo",
+        "elevation": "1760m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6554353,
+          46.47692
+        ]
+      },
+      "properties": {
+        "name": "Sella di Rioda",
+        "elevation": "1802m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.832930030301213,
+          47.63441003859043
+        ]
+      },
+      "properties": {
+        "name": "Semmeringpass",
+        "elevation": "985m",
+        "slope": "6%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.886470010504127,
+          47.6723700016737
+        ]
+      },
+      "properties": {
+        "name": "Spitzingseesattel",
+        "elevation": "1128m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2408389,
+          47.6437224
+        ]
+      },
+      "properties": {
+        "name": "Trattberg",
+        "elevation": "1550m",
+        "slope": "19%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.237339997664094,
+          46.56094003468752
+        ]
+      },
+      "properties": {
+        "name": "Tre Crocipass",
+        "elevation": "1805m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.05200002528727,
+          47.591490000486374
+        ]
+      },
+      "properties": {
+        "name": "Ursprungpass",
+        "elevation": "839m",
+        "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4814323,
+          46.026166
+        ]
+      },
+      "properties": {
+        "name": "Val d'Herens",
+        "elevation": "2300m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.318210000172257,
+          45.87711998261511
+        ]
+      },
+      "properties": {
+        "name": "Valico di Valbona",
+        "elevation": "1782m",
+        "slope": "9%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.136509988456964,
+          47.3291100282222
+        ]
+      },
+      "properties": {
+        "name": "Wasserfluh",
+        "elevation": "843m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0036014,
+          46.8416195
+        ]
+      },
+      "properties": {
+        "name": "Weinebene",
+        "elevation": "1668m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.822890006005764,
+          46.67980003170669
+        ]
+      },
+      "properties": {
+        "name": "Würzjoch",
+        "elevation": "2004m",
+        "slope": "16%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.124330017715693,
+          46.976649994030595
+        ]
+      },
+      "properties": {
+        "name": "Zeinisjoch",
+        "elevation": "1855m",
+        "slope": "14%"
+      }
+    }
+  ]
+}
