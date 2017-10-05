@@ -1,6 +1,8 @@
 const gulp = require('gulp');
 const del = require('del');
 const pug = require('gulp-pug');
+const ghPages = require('gulp-gh-pages');
+const runSequence = require('run-sequence');
 
 const geojson = require('./tools/gulp-geojson');
 
@@ -10,7 +12,7 @@ const reload = browserSync.reload;
 const distDirPath = './dist/';
 
 gulp.task('templates', () => {
-    gulp.src('./src/templates/*.pug')
+    return gulp.src('./src/templates/*.pug')
         .pipe(pug({
             pretty: true
         }))
@@ -18,36 +20,52 @@ gulp.task('templates', () => {
 });
 
 gulp.task('js', () => {
-    gulp.src('./src/js/*.js')
+    return gulp.src('./src/js/*.js')
         .pipe(gulp.dest(distDirPath));
 });
 
 gulp.task('styles', () => {
-    gulp.src('./src/css/*.css')
+    return gulp.src('./src/css/*.css')
         .pipe(gulp.dest(distDirPath));
 });
 
 gulp.task('geojson', () => {
-    gulp.src('./src/data/*.json')
+    return gulp.src('./src/data/*.json')
         .pipe(geojson('passes.json'))
         .pipe(gulp.dest(`${distDirPath}json/`))
 });
 
 gulp.task('clean', () => {
-    del(distDirPath);
+    return del([distDirPath]);
 });
 
 gulp.task('build', ['templates', 'js', 'styles', 'geojson']);
 
-// Static server
-gulp.task('serve', ['clean', 'build'], () => {
-    browserSync.init({
+gulp.task('deploy', () => {
+    return gulp.src(`${distDirPath}**/*`)
+        .pipe(ghPages());    
+});
+
+gulp.task('serve', () => {
+    return runSequence(
+        'clean',
+        'build',
+        'watch'
+    );
+});
+
+gulp.task('browser-sync', () => {
+    return browserSync.init({
         server: {
             baseDir: distDirPath
         }
-    });
-
-    gulp.watch(`${distDirPath}*`).on('change', reload);
+    });    
 });
 
-gulp.task('default', ['clean', 'build']);
+gulp.task('watch', ['browser-sync'], () => {
+    return gulp.watch(`${distDirPath}**/*`).on('change', reload);
+});
+
+gulp.task('default', () => {
+    return runSequence('clean', 'build');
+});
