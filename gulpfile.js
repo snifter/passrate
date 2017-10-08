@@ -3,6 +3,7 @@ const del = require('del');
 const pug = require('gulp-pug');
 const ghPages = require('gulp-gh-pages');
 const runSequence = require('run-sequence');
+const sass = require('gulp-sass');
 
 const geojson = require('./tools/gulp-geojson');
 
@@ -24,9 +25,11 @@ gulp.task('js', () => {
         .pipe(gulp.dest(distDirPath));
 });
 
-gulp.task('styles', () => {
-    return gulp.src('./src/css/*.css')
-        .pipe(gulp.dest(distDirPath));
+gulp.task('styles', function() {
+    return gulp.src("./src/scss/*.scss")
+        .pipe(sass())
+        .pipe(gulp.dest(distDirPath))
+        .pipe(browserSync.stream());
 });
 
 gulp.task('geojson', () => {
@@ -63,7 +66,13 @@ gulp.task('browser-sync', () => {
 });
 
 gulp.task('watch', ['browser-sync'], () => {
-    return gulp.watch(`${distDirPath}**/*`).on('change', reload);
+    gulp.watch('./src/templates/**/*', ['templates']);
+    gulp.watch('./src/js/**/*', ['js']);
+    gulp.watch('./src/scss/**/*', ['styles']);
+    return gulp.watch([
+        `${distDirPath}**/*`, 
+        `!${distDirPath}**/*.css`])
+        .on('change', reload);
 });
 
 gulp.task('default', () => {
