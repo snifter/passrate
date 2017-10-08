@@ -1,12 +1,32 @@
 doctype html
 html(lang='en')
   head
-    title Pass rate
-    meta(name='viewport' content='initial-scale=1.0')
     meta(charset='utf-8')
+    meta(name='viewport' 
+          content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    title Alpine passes
+    link(rel='stylesheet' 
+          href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css'
+          integrity='sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M' 
+          crossorigin='anonymous')
     link(rel='stylesheet' type='text/css' href='./styles.css')
   body
     #map
+    .container-fluid
+      h1 Alpine passes
+      .row
+        .col-sm-6.col-md-4
+          .card.mb-3
+            .card-body
+              h4.card-title Special title treatment
+              p.card-text With supporting text below as a natural lead-in to additional content.
+              a.btn.btn-primary(href='#') Go somewhere
+        .col-sm-6.col-md-4
+          .card.mb-3
+            .card-body
+              h4.card-title Special title treatment
+              p.card-text With supporting text below as a natural lead-in to additional content.
+              a.btn.btn-primary(href='#') Go somewhere
     script(src='./app.js')
     script(
         src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&callback=initMap'
