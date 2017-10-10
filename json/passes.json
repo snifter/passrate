@@ -126,29 +126,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.323150005191565,
-          44.30689003318548
+          6.575609995052218,
+          44.300260031595826
         ]
       },
       "properties": {
-        "name": "Col Franget",
-        "elevation": "1459m",
-        "slope": "17%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.342409966513515,
-          43.89492996968329
-        ]
-      },
-      "properties": {
-        "name": "Col St. Roch",
-        "elevation": "990m",
-        "slope": ""
+        "name": "Col d´Allos",
+        "elevation": "2250m",
+        "slope": "11%"
       }
     },
     {
@@ -231,118 +216,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.1192792,
-          44.6126891
+          6.670679971575737,
+          46.18973999284208
         ]
       },
       "properties": {
-        "name": "Col de Manse",
-        "elevation": "1272m",
-        "slope": "14%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.389459995552898,
-          44.281030017882586
-        ]
-      },
-      "properties": {
-        "name": "Col de Maure",
-        "elevation": "1347m",
-        "slope": "10%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.215180028229952,
-          44.57823000848293
-        ]
-      },
-      "properties": {
-        "name": "Col de Moissiere",
-        "elevation": "1573m",
-        "slope": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.724530011415482,
-          44.931239979341626
-        ]
-      },
-      "properties": {
-        "name": "Col de Montegenevre",
-        "elevation": "1854m",
-        "slope": "12%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.633379999548197,
-          45.69489003159106
-        ]
-      },
-      "properties": {
-        "name": "Col de Méraillet",
-        "elevation": "1605m",
-        "slope": "10%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6271365,
-          46.314135
-        ]
-      },
-      "properties": {
-        "name": "Col de Trechauffe",
-        "elevation": "1241m",
-        "slope": "12%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.391669992357492,
-          43.97681001573801
-        ]
-      },
-      "properties": {
-        "name": "Col de Turini",
-        "elevation": "1607m",
-        "slope": "10%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.919649988412857,
-          44.08970000222325
-        ]
-      },
-      "properties": {
-        "name": "Col de Valberg",
-        "elevation": "1669m",
+        "name": "Col de l'Encrenaz",
+        "elevation": "1433m",
         "slope": ""
       }
     },
@@ -358,21 +238,6 @@
       "properties": {
         "name": "Col de l' Orme",
         "elevation": "1000m",
-        "slope": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.670679971575737,
-          46.18973999284208
-        ]
-      },
-      "properties": {
-        "name": "Col de l'Encrenaz",
-        "elevation": "1433m",
         "slope": ""
       }
     },
@@ -463,6 +328,126 @@
       "properties": {
         "name": "Col de la Ramaz",
         "elevation": "1559m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1192792,
+          44.6126891
+        ]
+      },
+      "properties": {
+        "name": "Col de Manse",
+        "elevation": "1272m",
+        "slope": "14%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.389459995552898,
+          44.281030017882586
+        ]
+      },
+      "properties": {
+        "name": "Col de Maure",
+        "elevation": "1347m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.633379999548197,
+          45.69489003159106
+        ]
+      },
+      "properties": {
+        "name": "Col de Méraillet",
+        "elevation": "1605m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.215180028229952,
+          44.57823000848293
+        ]
+      },
+      "properties": {
+        "name": "Col de Moissiere",
+        "elevation": "1573m",
+        "slope": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.724530011415482,
+          44.931239979341626
+        ]
+      },
+      "properties": {
+        "name": "Col de Montegenevre",
+        "elevation": "1854m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6271365,
+          46.314135
+        ]
+      },
+      "properties": {
+        "name": "Col de Trechauffe",
+        "elevation": "1241m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.391669992357492,
+          43.97681001573801
+        ]
+      },
+      "properties": {
+        "name": "Col de Turini",
+        "elevation": "1607m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.919649988412857,
+          44.08970000222325
+        ]
+      },
+      "properties": {
+        "name": "Col de Valberg",
+        "elevation": "1669m",
         "slope": ""
       }
     },
@@ -681,14 +666,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.575609995052218,
-          44.300260031595826
+          6.323150005191565,
+          44.30689003318548
         ]
       },
       "properties": {
-        "name": "Col d´Allos",
-        "elevation": "2250m",
-        "slope": "11%"
+        "name": "Col Franget",
+        "elevation": "1459m",
+        "slope": "17%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.342409966513515,
+          43.89492996968329
+        ]
+      },
+      "properties": {
+        "name": "Col St. Roch",
+        "elevation": "990m",
+        "slope": ""
       }
     },
     {
@@ -741,6 +741,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.072939971461892,
+          46.53808996081352
+        ]
+      },
+      "properties": {
+        "name": "Forcella di Lius",
+        "elevation": "1019m",
+        "slope": "15%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.79205996543169,
+          46.31164999678731
+        ]
+      },
+      "properties": {
+        "name": "Forcella di Monte Rest",
+        "elevation": "1052m",
+        "slope": "10%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           12.08542998880148,
           46.31075003184378
         ]
@@ -779,36 +809,6 @@
         "name": "Forcella Staulanza",
         "elevation": "1766m",
         "slope": "14%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.072939971461892,
-          46.53808996081352
-        ]
-      },
-      "properties": {
-        "name": "Forcella di Lius",
-        "elevation": "1019m",
-        "slope": "15%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.79205996543169,
-          46.31164999678731
-        ]
-      },
-      "properties": {
-        "name": "Forcella di Monte Rest",
-        "elevation": "1052m",
-        "slope": "10%"
       }
     },
     {
@@ -1326,21 +1326,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.31373997963965,
-          46.45135000348091
-        ]
-      },
-      "properties": {
-        "name": "Sella Nevea",
-        "elevation": "1184m",
-        "slope": "14%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.62414999306202,
           46.495060035958886
         ]
@@ -1364,6 +1349,21 @@
         "name": "Sella di Rioda",
         "elevation": "1802m",
         "slope": "13%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.31373997963965,
+          46.45135000348091
+        ]
+      },
+      "properties": {
+        "name": "Sella Nevea",
+        "elevation": "1184m",
+        "slope": "14%"
       }
     },
     {
