@@ -3,7 +3,11 @@ mixin passCard(data)
         .card.mb-3
             .card-body
                 h4.card-title #{data.pass.name}
-                p.card-text. 
-                    With supporting text below as a natural 
-                    lead-in to additional content.
-                a.btn.btn-primary(href='#') Go somewhere
+                p.card-text 
+                    strong Elevation:
+                    |
+                    | #{data.pass.elevation}
+                    br
+                    strong Slope:
+                    |
+                    | #{data.pass.slope}
