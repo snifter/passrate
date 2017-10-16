@@ -7,6 +7,7 @@ const runSequence = require('run-sequence');
 const sass = require('gulp-sass');
 
 const geojson = require('./tools/gulp-geojson');
+const dataPug = require('./tools/gulp-data-pug');
 const common = require('./tools/common');
 
 const browserSync = require('browser-sync').create();
@@ -36,7 +37,13 @@ gulp.task('template-index', () => {
         .pipe(gulp.dest(distDirPath));
 });
 
-gulp.task('templates', ['template-index']);
+gulp.task('template-pass', () => {
+    return gulp.src('./src/data/*.json')
+        .pipe(dataPug('./src/templates/pass.pug'))
+        .pipe(gulp.dest(distDirPath));
+});
+
+gulp.task('templates', ['template-index', 'template-pass']);
 
 gulp.task('js', () => {
     return gulp.src('./src/js/*.js')

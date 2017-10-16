@@ -1,0 +1,24 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' 
+          content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    title #{data.pass.name} - Alpine passes
+    link(rel='stylesheet' 
+          href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css'
+          integrity='sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M' 
+          crossorigin='anonymous')
+    link(rel='stylesheet' type='text/css' href='./styles.css')
+  body
+    #map
+    .container-fluid
+      .jumbotron.mt-3
+        h1 Alpine passes
+      include mixins/pass-card.pug
+      .row
+        + passCard(data)
+    script(
+        src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&callback=initMap'
+        async
+        defer)
