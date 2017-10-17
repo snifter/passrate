@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const del = require('del');
+const path = require('path');
 const pug = require('gulp-pug');
 const data = require('gulp-data');
 const ghPages = require('gulp-gh-pages');
@@ -24,7 +25,9 @@ gulp.task('template-index', () => {
                         let passes = [];
     
                         files.forEach((file) => {
-                            passes.push(require(`./${file}`));
+                            let pass = require(`./${file}`);
+                            pass.slug = path.basename(file, '.json');
+                            passes.push(pass);
                         });
 
                         resolve({passes: passes});
