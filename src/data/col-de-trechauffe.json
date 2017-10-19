@@ -95,11 +95,11 @@
       "lon": 6.673150034621358
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "F",
+  "region": "Haute-Savoie",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }

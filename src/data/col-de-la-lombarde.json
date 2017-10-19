@@ -95,11 +95,11 @@
       "lon": 7.175080021843314
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "F",
+  "region": "Maritime Alps",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 3
 }

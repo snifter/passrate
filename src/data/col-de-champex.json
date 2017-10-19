@@ -123,11 +123,11 @@
       "lon": 7.146300002932549
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "CH",
+  "region": "Wallis",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 3
 }
