@@ -79,11 +79,11 @@
       "lon": 6.311850026249886
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "F",
+  "region": "Alpes-de-Haute-Provence",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }

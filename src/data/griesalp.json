@@ -43,11 +43,11 @@
       "lon": 7.760369963943958
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "CH",
+  "region": "Berner Oberland",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 4
 }

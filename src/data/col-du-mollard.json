@@ -251,11 +251,11 @@
       "lon": 6.40817997045815
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "F",
+  "region": "Savoie",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 2
 }

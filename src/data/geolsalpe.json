@@ -83,11 +83,11 @@
       "lon": 11.782310027629137
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "A",
+  "region": "Tirol",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }

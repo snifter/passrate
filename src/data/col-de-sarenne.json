@@ -47,11 +47,11 @@
       "lon": 6.142610013484955
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "F",
+  "region": "Isère",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }

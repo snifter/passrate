@@ -1,6 +1,6 @@
 {
   "pass": {
-    "name": "Col Franget",
+    "name": "Col du Fanget",
     "point": {
       "lat": 44.30689003318548,
       "lon": 6.323150005191565
@@ -47,11 +47,11 @@
       "lon": 6.235770005732775
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "F",
+  "region": "Alpes-de-Haute-Provence",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }

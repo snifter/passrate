@@ -75,11 +75,11 @@
       "lon": 12.791889980435371
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "I",
+  "region": "Friuli",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }
