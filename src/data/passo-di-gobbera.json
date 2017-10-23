@@ -55,11 +55,11 @@
       "lon": 11.804370023310184
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "I",
+  "region": "Trentino",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }

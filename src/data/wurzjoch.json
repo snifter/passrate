@@ -191,11 +191,11 @@
       "lon": 11.897669993340969
     }
   ],
-  "country": "",
-  "region": "",
+  "country": "I",
+  "region": "Südtirol",
   "closed": {
     "from": "",
     "to": ""
   },
-  "difficulty": 0
+  "difficulty": 1
 }
