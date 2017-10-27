@@ -4,1141 +4,632 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Alpine passes</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
-    <div id="map"></div>
-    <div class="container-fluid">
-      <div class="jumbotron mt-3">
+    <div class="content-wrapper">
+      <div class="map-wrapper">
         <h1>Alpine passes</h1>
+        <div id="map"></div>
       </div>
-      <div class="row">
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Alpe -d´Huez</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1860m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Alpl Pass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1081m<br><strong>Slope:</strong>
-16%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Antonio Passo S.</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1476m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Bartholomäberg</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1150m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Broconpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1615m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Brünigpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1008m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Bürgenstock</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-930m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col Bayard</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1248m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col d´Allos</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-2250m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col d Izoard</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-2361m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Braus</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1003m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Champex</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1498m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Jambaz</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1027m<br><strong>Slope:</strong>
-7%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Joux Plane</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1700m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de l'Encrenaz</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1433m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de l' Orme</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1000m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de la Couillole</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1678m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de la Croix</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-789m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de la Croix</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1779m<br><strong>Slope:</strong>
-9%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de la Joux Verte</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1760m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de la Lombarde</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-2351m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de la Ramaz</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1559m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Manse</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1272m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Maure</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1347m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Méraillet</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1605m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Moissiere</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1573m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Montegenevre</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1854m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Trechauffe</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1241m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Turini</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1607m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col de Valberg</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1669m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col des Champs</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-2093m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col des Saisies</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1633m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col des Toutes Aures</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1124m<br><strong>Slope:</strong>
-8%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Corbier</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1237m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Corobin</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1215m<br><strong>Slope:</strong>
-7%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Feu</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1117m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Grand Taillet</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1230m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Labouret</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1240m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Larche</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1691m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Mollard</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1638m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Mont Cenis</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-2081m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Pillon</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1546m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Pré</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1703m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col du Sarenne</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1999m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col Franget</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1459m<br><strong>Slope:</strong>
-17%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Col St. Roch</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-990m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Duranpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1601m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Eggeralm</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1420m<br><strong>Slope:</strong>
-16%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Flumserberg</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1350m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Forcella di Lius</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1019m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Forcella di Monte Rest</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1052m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Forcella Franche</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-992m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Forcella Lavardet</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1760m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Forcella Staulanza</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1766m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Furkel Sattel</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1759m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Geolsalpe</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1835m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Griesalp</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1425m<br><strong>Slope:</strong>
-28%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Gurnigel</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1750m<br><strong>Slope:</strong>
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Hengstpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1010m<br><strong>Slope:</strong>
-20%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Ibergeregg</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1406m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Iselsbergpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1208m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Kalser Glocknerstraße</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1986m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Lenzerheide</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1549m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Monte Baldo Höhenstraße</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1617m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Morginspass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1369m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Niederalpl</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1223m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Panoramica delle Vette</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1969m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passo Coe</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1608m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passo del Sommo</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1343m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passo della Fricca</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1113m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passo di Góbbera</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-988m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passo di M. Rest</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1052m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passo di Tanamea</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-850m<br><strong>Slope:</strong>
-9%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passo di Vézzena</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1402m<br><strong>Slope:</strong>
-17%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Passwang Pass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-943m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Pfitscher Joch</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1500m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Postalm</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1320m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Predilpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1156m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Preiner Gscheid</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1070m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Pustertaler Höhenstrasse</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1480m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Roselendpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1968m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Ruppenpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1003m<br><strong>Slope:</strong>
-9%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">San Simeone</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1218m<br><strong>Slope:</strong>
-9%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Sant-Angelo-Pass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1756m<br><strong>Slope:</strong>
-11%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Sappadapass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1299m<br><strong>Slope:</strong>
-10%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Sattelegg</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1190m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Schelten Pass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1051m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Schlegeis</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1805m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Sella di Razzo</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1760m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Sella di Rioda</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1802m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Sella Nevea</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1184m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Semmeringpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-985m<br><strong>Slope:</strong>
-6%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Spitzingseesattel</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1128m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Trattberg</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1550m<br><strong>Slope:</strong>
-19%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Tre Crocipass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1805m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Ursprungpass</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-839m<br><strong>Slope:</strong>
-13%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Val d'Herens</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-2300m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Valico di Valbona</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1782m<br><strong>Slope:</strong>
-9%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Wasserfluh</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-843m<br><strong>Slope:</strong>
-12%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Weinebene</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1668m<br><strong>Slope:</strong>
-15%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Würzjoch</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-2004m<br><strong>Slope:</strong>
-16%
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h4 class="card-title">Zeinisjoch</h4>
-                    <p class="card-text"> <strong>Elevation:</strong>
-1855m<br><strong>Slope:</strong>
-14%
-                    </p>
-                  </div>
-                </div>
-              </div>
+      <div class="passes-wrapper">
+        <ul class="passes-list">
+                  <li>
+                    <div class="pass-name">Alpe -d´Huez</div>
+                    <div class="pass-details"><span class="region" data-country="F">Isère</span>
+                      <a href="./alpe-d-huez.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Alpl Pass</div>
+                    <div class="pass-details"><span class="region" data-country="A">Steiermark</span>
+                      <a href="./alpl-pass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Antonio Passo S.</div>
+                    <div class="pass-details"><span class="region" data-country="I">Veneto</span>
+                      <a href="./antonio-passo.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Bartholomäberg</div>
+                    <div class="pass-details"><span class="region" data-country="A">Vorarlberg</span>
+                      <a href="./bartholomaberg.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Broconpass</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trento</span>
+                      <a href="./broconpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Brünigpass</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Berner Oberland</span>
+                      <a href="./brunigpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Bürgenstock</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Central Switzerland</span>
+                      <a href="./burgenstock.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col Bayard</div>
+                    <div class="pass-details"><span class="region" data-country="F">Hautes-Alpes</span>
+                      <a href="./col-bayard.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col d´Allos</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-d-allos.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col d Izoard</div>
+                    <div class="pass-details"><span class="region" data-country="F">Hautes-Alpes</span>
+                      <a href="./col-d-izoard.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Braus</div>
+                    <div class="pass-details"><span class="region" data-country="F">Maritime Alps</span>
+                      <a href="./col-de-braus.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Champex</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Wallis</span>
+                      <a href="./col-de-champex.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Jambaz</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-de-jambaz.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Joux Plane</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-de-joux-plane.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de l'Encrenaz</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-de-l-encrenaz.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de l' Orme</div>
+                    <div class="pass-details"><span class="region" data-country="F">Maritime Alps</span>
+                      <a href="./col-de-l-orme.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de la Couillole</div>
+                    <div class="pass-details"><span class="region" data-country="F">Maritime Alps</span>
+                      <a href="./col-de-la-couillole.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de la Croix</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Jura</span>
+                      <a href="./col-de-la-croix-jura.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de la Croix</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Waadt</span>
+                      <a href="./col-de-la-croix.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de la Joux Verte</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-de-la-joux-verte.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de la Lombarde</div>
+                    <div class="pass-details"><span class="region" data-country="F">Maritime Alps</span>
+                      <a href="./col-de-la-lombarde.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de la Ramaz</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-de-la-ramaz.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Larche</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-de-larche.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Manse</div>
+                    <div class="pass-details"><span class="region" data-country="F">Hautes-Alpes</span>
+                      <a href="./col-de-manse.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Maure</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-de-maure.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Méraillet</div>
+                    <div class="pass-details"><span class="region" data-country="F">Savoie</span>
+                      <a href="./col-de-meraillet.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Moissiere</div>
+                    <div class="pass-details"><span class="region" data-country="F">Hautes-Alpes</span>
+                      <a href="./col-de-moissiere.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Montegenevre</div>
+                    <div class="pass-details"><span class="region" data-country="F">Hautes-Alpes</span>
+                      <a href="./col-de-montegenevre.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Sarenne</div>
+                    <div class="pass-details"><span class="region" data-country="F">Isère</span>
+                      <a href="./col-de-sarenne.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Trechauffe</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-de-trechauffe.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Turini</div>
+                    <div class="pass-details"><span class="region" data-country="F">Maritime Alps</span>
+                      <a href="./col-de-turini.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col de Valberg</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-de-valberg.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col des Champs</div>
+                    <div class="pass-details"><span class="region" data-country="F">Hautes-Alpes</span>
+                      <a href="./col-des-champs.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col des Saisies</div>
+                    <div class="pass-details"><span class="region" data-country="F">Savoie</span>
+                      <a href="./col-des-saisies.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col des Toutes Aures</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-des-toutes-aures.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Corbier</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-du-corbier.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Corobin</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-du-corobin.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Feu</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-du-feu.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Fanget</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-du-franget.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Grand Taillet</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./col-du-grand-taillet.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Labouret</div>
+                    <div class="pass-details"><span class="region" data-country="F">Alpes-de-Haute-Provence</span>
+                      <a href="./col-du-labouret.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Mollard</div>
+                    <div class="pass-details"><span class="region" data-country="F">Savoie</span>
+                      <a href="./col-du-mollard.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Mont Cenis</div>
+                    <div class="pass-details"><span class="region" data-country="F">Savoie</span>
+                      <a href="./col-du-mont-cenis.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Pillon</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Waadt</span>
+                      <a href="./col-du-pillon.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col du Pré</div>
+                    <div class="pass-details"><span class="region" data-country="F">Savoie</span>
+                      <a href="./col-du-pre.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Col St. Roch</div>
+                    <div class="pass-details"><span class="region" data-country="F">Maritime Alps</span>
+                      <a href="./col-st-roch.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Duranpass</div>
+                    <div class="pass-details"><span class="region" data-country="I">Dolomites</span>
+                      <a href="./duranpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Eggeralm</div>
+                    <div class="pass-details"><span class="region" data-country="A">Carinthia</span>
+                      <a href="./eggeralm.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Flumserberg</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Sankt Gallen</span>
+                      <a href="./flumserberg.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Forcella di Lius</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./forcella-di-lius.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Forcella di Monte Rest</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./forcella-di-monte-rest.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Forcella Franche</div>
+                    <div class="pass-details"><span class="region" data-country="I">Dolomites</span>
+                      <a href="./forcella-franche.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Forcella Lavardet</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./forcella-lavardet.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Forcella Staulanza</div>
+                    <div class="pass-details"><span class="region" data-country="I">Dolomites</span>
+                      <a href="./forcella-staulanza.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Furkel Sattel</div>
+                    <div class="pass-details"><span class="region" data-country="I">Dolomites</span>
+                      <a href="./furkel-sattel.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Geolsalpe</div>
+                    <div class="pass-details"><span class="region" data-country="A">Tirol</span>
+                      <a href="./geolsalpe.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Griesalp</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Berner Oberland</span>
+                      <a href="./griesalp.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Gurnigel</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Berno</span>
+                      <a href="./gurnigel.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Hengstpass</div>
+                    <div class="pass-details"><span class="region" data-country="A">Oberösterreich</span>
+                      <a href="./hengstpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Ibergeregg</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Central Switzerland</span>
+                      <a href="./ibergeregg.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Iselsbergpass</div>
+                    <div class="pass-details"><span class="region" data-country="A">Osttirol</span>
+                      <a href="./iselsbergpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Kalser Glocknerstraße</div>
+                    <div class="pass-details"><span class="region" data-country="A">Osttirol</span>
+                      <a href="./kalser-glocknerstrasse.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Lenzerheide</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Graubünden</span>
+                      <a href="./lenzerheide.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Monte Baldo Höhenstraße</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./monte-baldo-hohenstrasse.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Morginspass</div>
+                    <div class="pass-details"><span class="region" data-country="F">Haute-Savoie</span>
+                      <a href="./morginspass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Niederalpl</div>
+                    <div class="pass-details"><span class="region" data-country="A">Steiermark</span>
+                      <a href="./niederalpl.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Panoramica delle Vette</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./panoramica-delle-vette.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passo Coe</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./passo-coe.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passo del Sommo</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./passo-del-sommo.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passo della Fricca</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./passo-della-fricca.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passo di Góbbera</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./passo-di-gobbera.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passo di M. Rest</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./passo-di-m-rest.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passo di Tanamea</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./passo-di-tanamea.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passo di Vézzena</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./passo-di-vezzena.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Passwang Pass</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Solura</span>
+                      <a href="./passwang-pass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Pfitscher Joch</div>
+                    <div class="pass-details"><span class="region" data-country="I">Südtirol</span>
+                      <a href="./pfitscher-joch.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Postalm</div>
+                    <div class="pass-details"><span class="region" data-country="A">Salzburg</span>
+                      <a href="./postalm.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Predilpass</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./predilpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Preiner Gscheid</div>
+                    <div class="pass-details"><span class="region" data-country="A">Steiermark</span>
+                      <a href="./preiner-gscheid.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Pustertaler Höhenstrasse</div>
+                    <div class="pass-details"><span class="region" data-country="A">Osttirol</span>
+                      <a href="./pustertaler-hohenstrasse.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Roselendpass</div>
+                    <div class="pass-details"><span class="region" data-country="F">Savoie</span>
+                      <a href="./roselendpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Ruppenpass</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Sankt Gallen</span>
+                      <a href="./ruppenpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">San Simeone</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./san-simeone.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Sant-Angelo-Pass</div>
+                    <div class="pass-details"><span class="region" data-country="I">Dolomites</span>
+                      <a href="./sant-angelo-pass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Sappadapass</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./sappadapass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Sattelegg</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Central Switzerland</span>
+                      <a href="./sattelegg.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Schelten Pass</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Solura</span>
+                      <a href="./schelten-pass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Schlegeis</div>
+                    <div class="pass-details"><span class="region" data-country="A">Tirol</span>
+                      <a href="./schlegeis.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Sella di Razzo</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./sella-di-razzo.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Sella di Rioda</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./sella-di-rioda.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Sella Nevea</div>
+                    <div class="pass-details"><span class="region" data-country="I">Friuli</span>
+                      <a href="./sella-nevea.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Semmeringpass</div>
+                    <div class="pass-details"><span class="region" data-country="A">Styria</span>
+                      <a href="./semmeringpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Spitzingseesattel</div>
+                    <div class="pass-details"><span class="region" data-country="D">Bayerische Alpen</span>
+                      <a href="./spitzingseesattel.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Trattberg</div>
+                    <div class="pass-details"><span class="region" data-country="A">Salzburg</span>
+                      <a href="./trattberg.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Tre Crocipass</div>
+                    <div class="pass-details"><span class="region" data-country="I">Dolomites</span>
+                      <a href="./tre-crocipass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Ursprungpass</div>
+                    <div class="pass-details"><span class="region" data-country="A">Tirol</span>
+                      <a href="./ursprungpass.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Val d'Herens</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Wallis</span>
+                      <a href="./val-d-herens.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Valico di Valbona</div>
+                    <div class="pass-details"><span class="region" data-country="I">Trentino</span>
+                      <a href="./valico-di-valbona.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Wasserfluh</div>
+                    <div class="pass-details"><span class="region" data-country="CH">Sankt Gallen</span>
+                      <a href="./wasserfluh.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Weinebene</div>
+                    <div class="pass-details"><span class="region" data-country="A">Steiermark</span>
+                      <a href="./weinebene.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Würzjoch</div>
+                    <div class="pass-details"><span class="region" data-country="I">Südtirol</span>
+                      <a href="./wurzjoch.html">Details</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pass-name">Zeinisjoch</div>
+                    <div class="pass-details"><span class="region" data-country="A">Tirol</span>
+                      <a href="./zeinisjoch.html">Details</a>
+                    </div>
+                  </li>
+        </ul>
       </div>
     </div>
-    <script src="./app.js"></script>
+    <script src="./js/index.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&amp;callback=initMap" async defer></script>
   </body>
 </html>

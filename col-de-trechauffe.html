@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Col de Trechauffe - Alpine passes</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <div class="map-wrapper">
+        <div id="map"></div>
+      </div>
+      <div class="pass-wrapper">
+        <h4 class="card-title">Col de Trechauffe</h4>
+        <p class="card-text"> <strong>Elevation:</strong>
+1241m<br><strong>Slope:</strong>
+12%
+        </p>
+      </div>
+    </div>
+    <script>
+      const point = {
+        lat: 46.314135,
+        lon: 6.6271365
+      };
+    </script>
+    <script src="./js/pass.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&amp;callback=initMap" async defer></script>
+  </body>
+</html>

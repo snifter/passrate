@@ -336,6 +336,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.903980020433664,
+          44.418660029768944
+        ]
+      },
+      "properties": {
+        "name": "Col du Larche",
+        "elevation": "1691m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.1192792,
           44.6126891
         ]
@@ -403,6 +418,21 @@
       "properties": {
         "name": "Col de Montegenevre",
         "elevation": "1854m",
+        "slope": "12%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.156449960544705,
+          45.09687996469438
+        ]
+      },
+      "properties": {
+        "name": "Col du Sarenne",
+        "elevation": "1999m",
         "slope": "12%"
       }
     },
@@ -546,6 +576,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.323150005191565,
+          44.30689003318548
+        ]
+      },
+      "properties": {
+        "name": "Col du Fanget",
+        "elevation": "1459m",
+        "slope": "17%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.6104522,
           46.3251131
         ]
@@ -569,21 +614,6 @@
         "name": "Col du Labouret",
         "elevation": "1240m",
         "slope": "10%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.903980020433664,
-          44.418660029768944
-        ]
-      },
-      "properties": {
-        "name": "Col du Larche",
-        "elevation": "1691m",
-        "slope": "12%"
       }
     },
     {
@@ -644,36 +674,6 @@
         "name": "Col du Pré",
         "elevation": "1703m",
         "slope": "12%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.156449960544705,
-          45.09687996469438
-        ]
-      },
-      "properties": {
-        "name": "Col du Sarenne",
-        "elevation": "1999m",
-        "slope": "12%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.323150005191565,
-          44.30689003318548
-        ]
-      },
-      "properties": {
-        "name": "Col Franget",
-        "elevation": "1459m",
-        "slope": "17%"
       }
     },
     {

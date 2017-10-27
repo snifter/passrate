@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Passo della Fricca - Alpine passes</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <div class="map-wrapper">
+        <div id="map"></div>
+      </div>
+      <div class="pass-wrapper">
+        <h4 class="card-title">Passo della Fricca</h4>
+        <p class="card-text"> <strong>Elevation:</strong>
+1113m<br><strong>Slope:</strong>
+11%
+        </p>
+      </div>
+    </div>
+    <script>
+      const point = {
+        lat: 45.95710001885891,
+        lon: 11.21931997127831
+      };
+    </script>
+    <script src="./js/pass.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&amp;callback=initMap" async defer></script>
+  </body>
+</html>

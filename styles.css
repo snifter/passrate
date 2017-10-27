@@ -1,7 +1,64 @@
-#map {
-  height: 100%; }
-
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
+  font-size: 18px; }
+
+#map {
+  height: 75vh; }
+
+@media (min-width: 768px) {
+  #map {
+    flex-grow: 2; }
+  .content-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row; }
+  .map-wrapper,
+  .passes-wrapper,
+  .pass-wrapper {
+    width: 50%;
+    flex-grow: 2; }
+  .map-wrapper {
+    display: flex;
+    flex-direction: column; }
+  .passes-wrapper {
+    overflow: auto; } }
+
+h1 {
+  text-align: center; }
+
+.passes-list {
+  list-style: none;
   padding: 0; }
+  @media (min-width: 768px) {
+    .passes-list {
+      padding: 2rem; } }
+  .passes-list > li {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: .25rem; }
+    .passes-list > li .pass-name {
+      flex-grow: 2; }
+
+.pass-details a {
+  font-size: .8rem; }
+
+.region {
+  font-style: italic;
+  font-size: .8rem;
+  padding-left: 20px;
+  margin-right: .5rem;
+  background-position: left center;
+  background-repeat: no-repeat; }
+  .region[data-country="I"] {
+    background-image: url(./images/it.png); }
+  .region[data-country="F"] {
+    background-image: url(./images/fr.png); }
+  .region[data-country="CH"] {
+    background-image: url(./images/ch.png); }
+  .region[data-country="A"] {
+    background-image: url(./images/at.png); }
+
+.pass-wrapper {
+  padding-left: .75rem; }

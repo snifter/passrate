@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Forcella Lavardet - Alpine passes</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <div class="map-wrapper">
+        <div id="map"></div>
+      </div>
+      <div class="pass-wrapper">
+        <h4 class="card-title">Forcella Lavardet</h4>
+        <p class="card-text"> <strong>Elevation:</strong>
+1760m<br><strong>Slope:</strong>
+12%
+        </p>
+      </div>
+    </div>
+    <script>
+      const point = {
+        lat: 46.51670001447201,
+        lon: 12.688120007514954
+      };
+    </script>
+    <script src="./js/pass.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&amp;callback=initMap" async defer></script>
+  </body>
+</html>
