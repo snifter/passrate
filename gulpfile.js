@@ -53,6 +53,11 @@ gulp.task('js', () => {
         .pipe(gulp.dest(distDirPath));
 });
 
+gulp.task('images', () => {
+    return gulp.src('./src/images/*')
+        .pipe(gulp.dest(`${distDirPath}images`));
+});
+
 gulp.task('styles', function() {
     return gulp.src("./src/scss/*.scss")
         .pipe(sass())
@@ -70,7 +75,7 @@ gulp.task('clean', () => {
     return del([distDirPath]);
 });
 
-gulp.task('build', ['templates', 'js', 'styles', 'geojson']);
+gulp.task('build', ['templates', 'js', 'styles', 'geojson', 'images']);
 
 gulp.task('deploy', () => {
     return gulp.src(`${distDirPath}**/*`)

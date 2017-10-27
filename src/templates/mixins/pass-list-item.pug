@@ -2,13 +2,7 @@ mixin passListItem(data)
     li
         .pass-name #{data.pass.name}
         .pass-details
-            strong Country:
-            |
-            |
-            span #{data.country}
-            |
-            |
-            span.region #{data.region}
+            span.region(data-country=`${data.country}`) #{data.region}
             |
             |
             a.card-link(href=`./${data.slug}.html`) Details
