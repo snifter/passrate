@@ -1,8 +1,13 @@
 function initMap() {
+  const passPoint = { lat: point.lat, lng: point.lon };
+
   const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: point.lat, lng: point.lon },
-    zoom: 10
+    center: passPoint,
+    zoom: 12
   });
 
-  map.data.loadGeoJson('./json/passes.json');
+  var marker = new google.maps.Marker({
+    position: passPoint,
+    map: map
+  });
 }
