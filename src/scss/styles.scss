@@ -28,6 +28,7 @@ h1 {
     > li {
         display: flex;
         align-items: stretch;
+        margin-bottom: .25rem;
 
         .pass-name {
             flex-grow: 2;
@@ -35,9 +36,17 @@ h1 {
     }
 }
 
+.pass-details {
+    a {
+        font-size: .8rem;
+    }
+}
+
 .region {
     font-style: italic;
+    font-size: .8rem;
     padding-left: 20px;
+    margin-right: .5rem;
     background-position: left center;
     background-repeat: no-repeat;
 
