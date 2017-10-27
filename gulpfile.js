@@ -50,7 +50,7 @@ gulp.task('templates', ['template-index', 'template-pass']);
 
 gulp.task('js', () => {
     return gulp.src('./src/js/*.js')
-        .pipe(gulp.dest(distDirPath));
+        .pipe(gulp.dest(`${distDirPath}js`));
 });
 
 gulp.task('images', () => {

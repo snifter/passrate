@@ -5,19 +5,28 @@ html(lang='en')
     meta(name='viewport' 
           content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title #{data.pass.name} - Alpine passes
-    link(rel='stylesheet' 
-          href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css'
-          integrity='sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb' 
-          crossorigin='anonymous')
     link(rel='stylesheet' type='text/css' href='./styles.css')
   body
-    #map
-    .container-fluid
-      .jumbotron.mt-3
-        h1 Alpine passes
-      include mixins/pass-card.pug
-      .row
-        + passCard(data)
+    .content-wrapper
+      .map-wrapper
+        #map
+      .pass-wrapper
+        h4.card-title #{data.pass.name}
+        p.card-text 
+            strong Elevation:
+            |
+            | #{data.pass.elevation}
+            br
+            strong Slope:
+            |
+            | #{data.pass.slope}
+    - var point = data.pass.point;
+    script.
+      const point = {
+        lat: #{point.lat},
+        lon: #{point.lon}
+      };
+    script(src='./js/pass.js')
     script(
         src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&callback=initMap'
         async
