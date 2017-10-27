@@ -5,20 +5,17 @@ html(lang='en')
     meta(name='viewport' 
           content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title Alpine passes
-    link(rel='stylesheet' 
-          href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css'
-          integrity='sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb' 
-          crossorigin='anonymous')
     link(rel='stylesheet' type='text/css' href='./styles.css')
   body
-    #map
-    .container-fluid
-      .jumbotron.mt-3
+    .content-wrapper
+      .map-wrapper
         h1 Alpine passes
-      include mixins/pass-list-item.pug
-      ul.list-group
-        each pass in passes
-          + passListItem(pass)
+        #map
+      .passes-wrapper
+        include mixins/pass-list-item.pug
+        ul.passes-list
+          each pass in passes
+            + passListItem(pass)
     script(src='./app.js')
     script(
         src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBn9e17q4EeMslFlH4iA9INljgj7b48IDI&callback=initMap'

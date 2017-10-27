@@ -1,9 +1,17 @@
-#map {
-    height: 100%;
-}
+@import 'variables';
 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+@import 'layout-small';
+
+@media (min-width: $break-point) {
+    @import 'layout-large';
+}
+
+h1 {
+    text-align: center;
 }
