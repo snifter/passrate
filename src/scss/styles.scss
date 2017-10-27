@@ -4,6 +4,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
 @import 'layout-small';
@@ -14,4 +15,26 @@ html, body {
 
 h1 {
     text-align: center;
+}
+
+.passes-list {
+    list-style: none;
+    padding: 0;
+
+    @media (min-width: $break-point) {
+        padding: 2rem;
+    }
+
+    > li {
+        display: flex;
+        align-items: stretch;
+
+        .pass-name {
+            flex-grow: 2;
+        }
+    }
+}
+
+.region {
+    font-style: italic;
 }

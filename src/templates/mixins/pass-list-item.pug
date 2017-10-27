@@ -1,12 +1,14 @@
 mixin passListItem(data)
-    li.list-group-item
-        | #{data.pass.name}
-        |
-        strong Country:
-        |
-        | #{data.country}
-        |
-        strong Region:
-        |
-        | #{data.region}                
-        a.card-link(href=`./${data.slug}.html`) Details
+    li
+        .pass-name #{data.pass.name}
+        .pass-details
+            strong Country:
+            |
+            |
+            span #{data.country}
+            |
+            |
+            span.region #{data.region}
+            |
+            |
+            a.card-link(href=`./${data.slug}.html`) Details
