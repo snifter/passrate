@@ -11,8 +11,10 @@ html(lang='en')
       .map-wrapper
         #map
       .pass-wrapper
-        h4.card-title #{data.pass.name}
-        p.card-text 
+        h4 #{data.pass.name}
+        .pass-details
+            span.region(data-country=`${data.country}`) #{data.region}            
+        p
             strong Elevation:
             |
             | #{data.pass.elevation}
