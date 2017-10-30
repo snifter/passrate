@@ -6,6 +6,7 @@ html(lang='en')
           content='width=device-width, initial-scale=1, shrink-to-fit=no')
     title #{data.pass.name} - Alpine passes
     link(rel='stylesheet' type='text/css' href='./styles.css')
+    script(src='https://use.fontawesome.com/4c144b7657.js')
   body
     .content-wrapper
       .map-wrapper
@@ -13,15 +14,20 @@ html(lang='en')
       .pass-wrapper
         h4 #{data.pass.name}
         .pass-details
-            span.region(data-country=`${data.country}`) #{data.region}            
+            span.region(data-country=`${data.country}`) #{data.region}
+
+        - var n = 0
         p
-            strong Elevation:
-            |
-            | #{data.pass.elevation}
-            br
-            strong Slope:
-            |
-            | #{data.pass.slope}
+          while n++ <= data.difficulty
+            i.fa.fa-star
+        p
+          strong Elevation:
+          |
+          | #{data.pass.elevation}
+          br
+          strong Slope:
+          |
+          | #{data.pass.slope}
     - var point = data.pass.point;
     script.
       const point = {
