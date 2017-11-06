@@ -58,6 +58,11 @@ gulp.task('images', () => {
         .pipe(gulp.dest(`${distDirPath}images`));
 });
 
+gulp.task('favicons', () => {
+    return gulp.src('./src/favicons/**/*')
+        .pipe(gulp.dest(`${distDirPath}favicons`));
+});
+
 gulp.task('styles', function() {
     return gulp.src("./src/scss/*.scss")
         .pipe(sass())
@@ -75,7 +80,7 @@ gulp.task('clean', () => {
     return del([distDirPath]);
 });
 
-gulp.task('build', ['templates', 'js', 'styles', 'geojson', 'images']);
+gulp.task('build', ['templates', 'js', 'styles', 'geojson', 'images', 'favicons']);
 
 gulp.task('deploy', () => {
     return gulp.src(`${distDirPath}**/*`)
